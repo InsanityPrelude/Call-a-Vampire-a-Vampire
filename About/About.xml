@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Call a Vampire a Vampire</name>
+	<packageId>jiopaba.callavampire</packageId>
+  <url></url>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<author>Jiopaba</author>
+	<description>Replace some of the stupid neologisms that absolutely fill this game.  Anne Rice isn't about to sue Tynan for abuse of the word vampire.  Turns all references to Hemogen into Blood, Deathrest into Torpor, and Sanguophages into Vampires.</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+	</modDependencies>
+</ModMetaData>

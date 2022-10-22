@@ -1,0 +1,753 @@
+<Patch>
+  <!-- RACE DEFS-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Sanguophage"]/description</xpath>
+    <value>
+      <description>Vampires are a type of archotech-enhanced xenohuman. Powered by nanites, their abilities go far beyond normal genetic enhancements. They are mentally adept and supernaturally beautiful. In combat, they can launch deadly spines and heal injured friends. They don't age or die naturally and never suffer from disease or poison. A vampire can make a new vampire by reimplanting their own xenogerm into a person.\n\nVampires must regularly consume human blood, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.\n\nThe first vampire appeared thousands of years ago when the lord-explorer Varan-Dur sought to control a hyperintelligent archotech and found himself transformed by it instead. Every vampire is descended from him. Since then, vampires have often been hunted because of their destabilizing power and their need for blood. Since they can pass for baseliners, many live in hiding among typical humans.\n\nTheir numbers are unknown. Some think they are legends or rare irrelevancies. Some believe vampires secretly direct entire human civilizations. The stories speak of eternal lords ruling billions from slate-black space stations, or directing blood sacrifices at conferences in the underlayers of the deepest urbworlds.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Sanguophage"]/descriptionShort</xpath>
+    <value>
+      <descriptionShort>Vampires are ageless, deathless super-humans powered by archotech-created nanites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.</descriptionShort>
+    </value>
+  </Operation>  
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/XenotypeDef[defName="Sanguophage"]/label</xpath>
+    <value>
+      <label>vampire</label>
+    </value>
+  </Operation>  
+  
+  <!-- ABILITY DEFS-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Bloodfeed"]/label</xpath>
+    <value>
+      <label>drink</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Bloodfeed"]/description</xpath>
+    <value>
+      <description>Bite the target and extract their blood directly. The target will lose blood and will be horrified by the interaction, but will be otherwise unharmed. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan only target non-vampiric humans. Blood gain is affected by the target’s body size.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="PiercingSpine"]/description</xpath>
+    <value>
+      <description>Use vampiric power to launch a bony spine at the target. The spine exits through the skin from an opening between the collarbones. Given the method of launch, it is surprisingly easy to aim.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Longjump"]/description</xpath>
+    <value>
+      <description>Jump to a distant location using super-strong vampiric legs.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Longjump"]/description</xpath>
+    <value>
+      <description>Jump to a distant location using super-strong vampiric legs.</description>
+    </value>
+  </Operation>
+  
+    <!-- FACTION DEFS-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Sanguophages"]/label</xpath>
+    <value>
+      <label>vampires</label>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Sanguophages"]/pawnSingular</xpath>
+    <value>
+      <pawnSingular>vampire</pawnSingular>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Sanguophages"]/pawnsPlural</xpath>
+    <value>
+      <pawnsPlural>vampires</pawnsPlural>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Sanguophages"]/categoryTag</xpath>
+    <value>
+      <categoryTag>Vampires</categoryTag>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Sanguophages"]/description</xpath>
+    <value>
+      <description>A group of ancient vampires.</description>
+    </value>
+  </Operation>    
+  
+    <!-- SPECIAL PAWNKIND DEF -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[@Name="SanguophageBase"]/label</xpath>
+    <value>
+      <label>vampire</label>
+    </value>
+  </Operation>    
+  
+    <!-- QUEST DEF -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="SanguophageMeetingHost"]/questDescriptionRules</xpath>
+    <value>
+      <questDescriptionRules>
+        <rulesStrings>
+        <li>questDescription->A vampire named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] vampires will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the vampires and attack them. Downed vampires can be forced to turn one of your own colonists into a vampire.\n\n[sanguophageInfo]</li>
+
+        <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->vampire</li>
+        <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->vampires</li>
+
+        <li>sanguophageInfo->(*Gray)About vampires: Vampires are ageless, deathless super-humans powered by archotech-created nanites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+        </rulesStrings>
+      </questDescriptionRules>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="SanguophageMeetingHost"]/questContentRules</xpath>
+    <value>
+      <questContentRules>
+      <rulesStrings>
+        <li>sanguophagesArriveLetterLabel->Vampires arrived</li>
+        <li>sanguophagesArriveLetterText->The [sanguophageCount] vampires are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
+
+        <li>argumentLetterLabel->Vampire argument</li>
+        <li>argumentLetterText->The vampires got into an argument and it has now escalated to violence!</li>
+
+        <li>successLetterLabel->Meeting complete</li>
+        <li>successLetterText->The vampires have completed their meeting and will now give you your reward.</li>
+
+        <li>raidArrivedLetterLabel->Vampire hunters</li>
+        <li>raidArrivedLetterText->A group of vampires hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting vampires as well as those who hosted them.</li>
+      </rulesStrings>
+      </questContentRules>
+    </value>
+  </Operation>        
+    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="SanguophageShip"]/questDescriptionRules</xpath>
+    <value>
+      <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a vampire master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the vampire and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a vampire.\n\n[sanguophageInfo]</li>
+
+        <li>sanguophageInfo->(*Gray)About vampires: Vampires are ageless, deathless super-humans powered by archotech-created nanites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+      </rulesStrings>
+      </questDescriptionRules>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/QuestScriptDef[defName="SanguophageShip"]/questContentRules/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+      <li>sanguophageShuttleCrashedLetterLabel->Crashed shuttle</li>
+      <li>sanguophageShuttleCrashedLetterText->A shuttle containing a vampire master and [thrallCount] thralls has crashed nearby. They will exit the crashed craft and prepare to fight.</li>
+
+      <li>reinforcementsArrivedLetterLabel->Thrall reinforcements</li>
+      <li>reinforcementsArrivedLetterText->Thralls are arriving in drop pods to reinforce the crashed vampire.</li>
+
+      <li>assaultBeginLetterLabel->Assault begun</li>
+      <li>assaultBeginLetterText->The hostile vampire master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
+      </rulesStrings>
+    </value>
+  </Operation>     
+    
+      <!-- SCENARIO DEF -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Sanguophage"]/label</xpath>
+    <value>
+      <label>The Vampire</label>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Sanguophage"]/description</xpath>
+    <value>
+      <description>When a dark stranger offered you a cure for your cancer, you were ready to agree to anything. He made you into a vampire - an immortal blood-drinker hated by a thousand religions. You hid your condition for years, but eventually a hunter tracked you down. Stowing away on the first starship leaving the system, you barely escaped alive.\n\nNote: Vampires have unique strengths and weaknesses, which makes this a difficult scenario.</description>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Sanguophage"]/scenario/summary</xpath>
+    <value>
+      <summary>One crashlanded vampire needing blood to survive, and one human colonist.</summary>
+    </value>
+  </Operation>        
+  
+    <!-- BUILDING DEFS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SanguphageMeetingTorch"]/description</xpath>
+    <value>
+      <description>A specially-treated wooden torch that produces a red light over a large area. Vampires gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat.</description>
+    </value>
+  </Operation>        
+  
+    <!-- GENE CATEGORY DEFS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneCategoryDef[defName="Hemogen"]/label</xpath>
+    <value>
+      <label>blood</label>
+    </value>
+  </Operation>          
+    
+    <!-- GENE DEFS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="LongjumpLegs"]/description</xpath>
+    <value>
+      <description>Carriers have special vampirically blood-powered muscle fibers in their legs which allow them to jump great distances.</description>
+    </value>
+  </Operation>   
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Bloodfeeder"]/description</xpath>
+    <value>
+      <description>Carriers of this gene have small retractable fangs. They can bite an unresisting person, and drink their blood directly.</description>
+    </value>
+  </Operation>      
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="PiercingSpine"]/description</xpath>
+    <value>
+      <description>Carriers grow an opening in their upper chest along with a quiver of keratin spines. Using vampiric power, they can fire these spines at high speed at nearby targets with surprising accuracy.</description>
+    </value>
+  </Operation>        
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Deathrest"]/label</xpath>
+    <value>
+      <label>torpor</label>
+    </value>
+  </Operation>  
+  <Operation Class="PatchOperationReplace">    
+    <xpath>Defs/GeneDef[defName="Deathrest"]/description</xpath>
+    <value>
+      <description>Carriers of this gene must periodically regenerate themselves in a special coma called torpor. Torpor takes days, but can confer substantial bonuses. Torpor can be accelerated and its effects enhanced by the use of a variety of special buildings and technologies.\n\nThose who put off torpor will suffer from torpor exhaustion.</description>
+    </value>
+  </Operation>       
+
+      <!-- VAMPIRIC GENE DEFS-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Hemogenic"]/label</xpath>
+    <value>
+      <label>vampiric</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Hemogenic"]/description</xpath>
+    <value>
+      <description>Carriers of this gene have a reserve of biological strength powered by blood. The resource can be gained and spent in various ways, all of which are unlocked by other genes.\n\nCarriers lose 2 blood per day from biological entropy.</description>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Hemogenic"]/resourceLabel</xpath>
+    <value>
+      <resourceLabel>blood</resourceLabel>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Hemogenic"]/resourceDescription</xpath>
+    <value>
+      <resourceDescription>A reserve of biological strength which can be gained and spent in a variety of ways.\n\nBlood can be increased by drinking from a human or consuming blood packs. You can obtain blood packs using the 'extract blood pack' medical operation on a non-vampiric human.\n\nIf blood reaches zero, {PAWN_nameDef} will become very unhappy.</resourceDescription>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Hemogenic"]/customEffectDescriptions/li</xpath>
+    <value>
+      <li>Gives blood supply.</li>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="HemogenDrain"]/label</xpath>
+    <value>
+      <label>blood drain</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="HemogenDrain"]/description</xpath>
+    <value>
+      <description>Carriers lose an additional 8 blood per day from biological entropy.</description>
+    </value>
+  </Operation>   
+  
+    <!-- HEDIFFS DEFS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Deathrest"]/label</xpath>
+    <value>
+      <label>torpor</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Deathrest"]/description</xpath>
+    <value>
+      <description>A deep coma-like sleep that lasts several days and restores the body's resources. Certain genes create a need for torpor. Torpor can also be enhanced with various support buildings that give special bonuses to the sleeper.</description>
+    </value>
+  </Operation>   
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="InterruptedDeathrest"]/label</xpath>
+    <value>
+      <label>interrupted torpor</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="InterruptedDeathrest"]/description</xpath>
+    <value>
+      <description>Torpor was interrupted while this person's metabolism was still out of balance. They will be sick for days while regaining equilibrium.</description>
+    </value>
+  </Operation>     
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="DeathrestExhaustion"]/label</xpath>
+    <value>
+      <label>torpor exhaustion</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="DeathrestExhaustion"]/description</xpath>
+    <value>
+      <description>This person desperately needs to enter torpor to rebalance their metabolism.</description>
+    </value>
+  </Operation>     
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="HemogenCraving"]/label</xpath>
+    <value>
+      <label>blood craving</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="HemogenCraving"]/description</xpath>
+    <value>
+      <description>Due to a lack of blood, this person's body is breaking down their own bone marrow. This causes disorientation and a painful craving for human blood.</description>
+    </value>
+  </Operation>   
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[@Name="DeathrestHediffBase"]/extraTooltip</xpath>
+    <value>
+      <extraTooltip>Lasts until the next torpor.</extraTooltip>
+    </value>
+  </Operation>   
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="HemogenAmplified"]/label</xpath>
+    <value>
+      <label>blood amplified</label>
+    </value>
+  </Operation>   
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="HemogenAmplified"]/description</xpath>
+    <value>
+      <description>All blood gains are multiplied up because this person used a blood amplifier while in torpor. This effect lasts until the next torpor.</description>
+    </value>
+  </Operation>   
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="GlucosoidRush"]/description</xpath>
+    <value>
+      <description>Move speed is increased because this person used a glucosoid pump while in torpor. This effect lasts until the next torpor.</description>
+    </value>
+  </Operation>   
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="PsychofluidRush"]/description</xpath>
+    <value>
+      <description>Psychic sensitivity is enhanced because this person used a psychofluid pump while in torpor. This effect lasts until the next torpor.</description>
+    </value>
+  </Operation>   
+  
+      <!-- HISTORY EVENT DEF -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HistoryEventDef[defName="ExtractedHemogenPack"]/label</xpath>
+    <value>
+      <label>extracted blood from member</label>
+    </value>
+  </Operation>        
+  
+      <!-- PRISONER INTERACTION DEFS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PrisonerInteractionModeDef[defName="Bloodfeed"]/description</xpath>
+    <value>
+      <description>Wardens will ignore this prisoner. When a vampire's blood levels are low, they may feed on this prisoner. Other prisoners who are vampires can also feed on this prisoner, if they are in the same cell.</description>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PrisonerInteractionModeDef[defName="HemogenFarm"]/label</xpath>
+    <value>
+      <label>blood farm</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PrisonerInteractionModeDef[defName="HemogenFarm"]/description</xpath>
+    <value>
+      <description>An operation to extract blood packs will be automatically queued on this prisoner whenever it can be done without killing them. The operation will be carried out by a doctor.</description>
+    </value>
+  </Operation>       
+  
+      <!-- SURGERY RECIPES -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ExtractHemogenPack"]/label</xpath>
+    <value>
+      <label>extract blood pack</label>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ExtractHemogenPack"]/description</xpath>
+    <value>
+      <description>Extract a blood pack from the target. The operation will fail to produce a blood pack if the target does not have enough blood.\n\nBlood packs can be administered to others to reduce blood loss or to satiate those who feed on blood.</description>
+    </value>
+  </Operation>    
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ExtractHemogenPack"]/jobString</xpath>
+    <value>
+      <jobString>extracting blood pack</jobString>
+    </value>
+  </Operation>          
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="BloodTransfusion"]/description</xpath>
+    <value>
+      <description>Use blood packs to reduce the effects of blood loss. Each blood pack used recovers 35% blood loss. The operation will also restore blood supply to vampiric individuals.</description>
+    </value>
+  </Operation>  
+  
+      <!-- PAWN STATS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StatDef[defName="HemogenGainFactor"]/label</xpath>
+    <value>
+      <label>blood gain multiplier</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/StatDef[defName="HemogenGainFactor"]/description</xpath>
+    <value>
+      <description>A multiplier on the amount of blood gained when consuming blood from any source.</description>
+    </value>
+  </Operation>        
+      
+      <!-- BUILDINGS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeathrestCasket"]/label</xpath>
+    <value>
+      <label>torpor casket</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeathrestCasket"]/description</xpath>
+    <value>
+      <description>An enclosed med-casket that accelerates the process of torpor. It can connect to other devices which confer additional bonuses on the occupant. The number of devices that can connect depends on the person's torpor capacity, which can be seen by selecting them.\n\nOnly those with the torpor gene can use the torpor casket.</description>
+    </value>
+  </Operation>            
+
+      <!--- This is messy as shit, I'm just replacing the whole set of comps right here because I'm not 100% on how to reference just the specific one I want. Need to clean this up so it's compatible with mods that change rate of hemogen consumption and other things.-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DeathrestBuildingHemogenFueled"]/comps</xpath>
+    <value>
+      <comps>
+        <li Class="CompProperties_Flickable"/>
+        <li Class="CompProperties_Refuelable">
+          <fuelConsumptionRate>0.08333</fuelConsumptionRate> <!-- Empty in one year -->
+          <fuelCapacity>5</fuelCapacity>
+          <fuelLabel>Blood</fuelLabel>
+          <fuelFilter>
+            <thingDefs>
+              <li>HemogenPack</li>
+            </thingDefs>
+          </fuelFilter>
+          <initialFuelPercent>1</initialFuelPercent>
+          <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        </li>
+      </comps>
+    </value>
+  </Operation>        
+      
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Hemopump"]/label</xpath>
+    <value>
+      <label>bloodpump</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Hemopump"]/description</xpath>
+    <value>
+      <description>This blood-refining pump increases the amount of vampiric power a resting vampire can store in their body. It must be connected to a torpor casket to function.\n\nThis building needs to consume blood to function.</description>
+    </value>
+  </Operation>           
+      
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HemogenAmplifier"]/label</xpath>
+    <value>
+      <label>blood amplifier</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HemogenAmplifier"]/description</xpath>
+    <value>
+      <description>This device leaves a sleeper in a blood-amplified state so they gain more blood from any source. Using a gland probe and blood analyzer, it links with a person in torpor, stimulating their biology into a more active state. It must be connected to a torpor casket to function.\n\nThis building needs to consume blood to function.</description>
+    </value>
+  </Operation>  
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="GlucosoidPump"]/description</xpath>
+    <value>
+      <description>This device allows a sleeper to move faster after torpor is complete. It pumps the body with extra muscle-signaling factors while cleaning waste products from muscle tissue. The effect lasts until the individual torpors again. It must be connected to a torpor casket to function.\n\nThis building must consume blood to function.</description>
+    </value>
+  </Operation>                
+      
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PsychofluidPump"]/description</xpath>
+    <value>
+      <description>This device enhances the psychic sensitivity of a person in torpor by rhythmically stimulating neural tissues. It must be connected to a torpor casket to function.\n\nThis building must consume blood to function.</description>
+    </value>
+  </Operation>                
+      
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeathrestAccelerator"]/label</xpath>
+    <value>
+      <label>torpor accelerator</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeathrestAccelerator"]/description</xpath>
+    <value>
+      <description>This device connects with a slumbering person and makes torpor complete quicker. It enhances the effect of the torpor casket using finer blood analysis and more powerful chemicals. It must be connected to a torpor casket to function.</description>
+    </value>     
+  </Operation>        
+
+      <!-- FOOD ITEMS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HemogenPack"]/label</xpath>
+    <value>
+      <label>blood pack</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HemogenPack"]/description</xpath>
+    <value>
+      <description>A package of refined blood in a specialized container that prevents spoilage. Vampiric humans can consume it to restore their internal blood stores. It can be administered via an operation to reverse blood loss.</description>
+    </value>     
+  </Operation>         
+      
+      <!-- MANUFACTURED RESOURCE DEFS -->
+      
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeathrestCapacitySerum"]/label</xpath>
+    <value>
+      <label>torpor capacity serum</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DeathrestCapacitySerum"]/description</xpath>
+    <value>
+      <description>A serum that permanently increases the number of torpor buildings a person can connect to during torpor.\n\nThe serum can only be ingested by individuals with the torpor gene.</description>
+    </value>     
+  </Operation>        
+      
+      <!-- THOUGHTS AND MEMORIES -->
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="IngestedHemogenPack"]/stages/li/label</xpath>
+    <value>
+      <label>ingested blood pack</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="IngestedHemogenPack"]/stages/li/description</xpath>
+    <value>
+      <description>I ingested a blood pack. It might keep me alive, but it was absolutely disgusting</description>
+    </value>     
+  </Operation>     
+      
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="HemogenCraving"]/stages</xpath>
+    <value>
+      <stages>
+        <li>
+          <label>blood craving</label>
+          <description>My bones ache. I really need blood.</description>
+          <baseMoodEffect>-10</baseMoodEffect>
+        </li>
+        <li>
+          <label>blood craving</label>
+          <description>This hurts bad and my head is fuzzy. I would kill for some blood. Maybe I should.</description>
+          <baseMoodEffect>-15</baseMoodEffect>
+        </li>
+        <li>
+          <label>blood craving</label>
+          <description>Can't think. Thirst. Thirst. Must. Have. Blood.</description>
+          <baseMoodEffect>-20</baseMoodEffect>
+        </li>
+      </stages>
+    </value>
+  </Operation>        
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="DeathrestChamber"]/stages</xpath>
+    <value>
+      <stages>
+        <li>
+          <label>torpored outside</label>
+          <description>I had to torpor outdoors. It was awful.</description>
+          <baseMoodEffect>-4</baseMoodEffect>
+        </li>
+        <li>
+          <label>awful torpor chamber</label>
+          <description>I had to torpor in an awful chamber.</description>
+          <baseMoodEffect>-4</baseMoodEffect>
+        </li>
+        <li IsNull="True" /> <!-- dull -->
+        <li IsNull="True" /> <!-- mediocre -->
+        <li>
+          <label>decent torpor chamber</label>
+          <description>I got to torpor in a decent chamber.</description>
+          <baseMoodEffect>2</baseMoodEffect>
+        </li>
+        <li>
+          <label>good torpor chamber</label>
+          <description>I got to torpor in a slightly impressive chamber. It was nice.</description>
+          <baseMoodEffect>3</baseMoodEffect>
+        </li>
+        <li>
+          <label>great torpor chamber</label>
+          <description>I got to torpor in an impressive chamber. I feel rejuvenated.</description>
+          <baseMoodEffect>4</baseMoodEffect>
+        </li>
+        <li>
+          <label>excellent torpor chamber</label>
+          <description>I got to torpor in a very impressive chamber. I feel amazing.</description>
+          <baseMoodEffect>5</baseMoodEffect>
+        </li>
+        <li>
+          <label>exceptional torpor chamber</label>
+          <description>I got to torpor in an extremely impressive chamber. It was glorious.</description>
+          <baseMoodEffect>6</baseMoodEffect>
+        </li>
+        <li>
+          <label>unbelievable torpor chamber</label>
+          <description>I got to torpor in an unbelievably impressive chamber. It was spectacular.</description>
+          <baseMoodEffect>7</baseMoodEffect>
+        </li>
+        <li>
+          <label>wondrous torpor chamber</label>
+          <description>I got to torpor in such a luxurious chamber! It was wondrous.</description>
+          <baseMoodEffect>8</baseMoodEffect>
+        </li>
+      </stages>    
+    </value>
+  </Operation>
+      
+      <!-- CATEGORY DEFS -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneCategoryDef[defName="Archite"]/label</xpath>
+    <value>
+      <label>nanite</label>
+    </value>     
+  </Operation>          
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneCategoryDef[defName="Hemogen"]/label</xpath>
+    <value>
+      <label>blood</label>
+    </value>     
+  </Operation>             
+      
+      <!-- RESEARCH PROJECT DEFS -->
+      
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Deathrest"]/label</xpath>
+    <value>
+      <label>torpor</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Deathrest"]/description</xpath>
+    <value>
+      <description>Those with the torpor gene must periodically undergo a special torpor that lasts several days. This research project allows you to construct buildings which accelerate the torpor and confer specific bonuses on the sleeper. Over time, you can build a grand torpor temple.</description>
+    </value>     
+  </Operation>          
+      
+      <!-- TUTOR -->
+      
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ConceptDef[defName="Deathrest"]/label</xpath>
+    <value>
+      <label>Torpor</label>
+    </value>
+  </Operation>        
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ConceptDef[defName="Deathrest"]/helpText</xpath>
+    <value>
+      <helpText>Colonists with the torpor gene must periodically regenerate themselves in a special coma called torpor. This takes several days.\n\nSpecial machines placed near the casket can give bonuses to the sleeper. A person can only connect to a limited number of machines - this number is shown by their torpor capacity.\n\nYou can increase torpor capacity by injecting torpor capacity serums. These can be purchased from traders.</helpText>
+    </value>     
+  </Operation>    
+      
+      <!-- NEED DEFS -->
+      
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/NeedDef[defName="Deathrest"]/label</xpath>
+    <value>
+      <label>torpor</label>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/NeedDef[defName="Deathrest"]/description</xpath>
+    <value>
+      <description>People with the torpor gene must torpor every few days or quadrums. To torpor means entering a regenerative coma for several days, during which the sleeper appears dead.\n\nA variety of special buildings can connect to a person in torpor and give them bonuses upon waking.\n\nGoing too long without torpor will cause torpor exhaustion, which massively degrades a person's physical capacities.</description>
+    </value>     
+  </Operation>          
+
+      <!-- ROOM ROLE DEFS -->
+      
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RoomRoleDef[defName="DeathrestChamber"]/label</xpath>
+    <value>
+      <label>Torpor chamber</label>
+    </value>
+  </Operation>         
+      
+      <!-- ARCHITES TO NANITES -->
+  
+  <!--  I'll think about this one more. 
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Resurrection"]/description</xpath>
+    <value>
+      <description>Use nanites in the bloodstream to infuse a corpse's body with new life, repairing degenerated cell structures and kickstarting vital functions. The older and worse-preserved the corpse is, the more likely it is that they will come back with memory loss or health conditions. This ability seems to exhaust the nanites somehow, so it can only be used very rarely.</description>
+    </value>     
+  </Operation>               
+      
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="Deathless"]/description</xpath>
+    <value>
+      <description>Carriers of this gene have nanites in the blood which will sustain their life processes no matter what. As long as the brain remains intact, a carrier of this gene will never die.</description>
+    </value>     
+  </Operation>              
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="ArchiteMetabolism"]/label</xpath>
+    <value>
+      <label>nanite metabolism</label>
+    </value>     
+  </Operation>                
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="ArchiteMetabolism"]/labelShortAdj</xpath>
+    <value>
+      <labelShortAdj>nanite-metabolic</labelShortAdj>
+    </value>     
+  </Operation>                
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneDef[defName="ArchiteMetabolism"]/description</xpath>
+    <value>
+      <description>Carriers of this gene have special nanites in their cells that facilitate and optimize metabolism. This improves overall genetic and metabolic quality.</description>
+    </value>     
+  </Operation>          
+      
+      
+      
+  -->    
+      
+</Patch>

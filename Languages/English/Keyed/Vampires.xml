@@ -1,0 +1,34 @@
+<LanguageData>
+  <Hemogen>blood</Hemogen>
+  <HemogenDesc>Blood is a biological energy source extracted from humans. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all.</HemogenDesc>
+  <DeathrestCapacity>torpor capacity</DeathrestCapacity>
+  <DeathrestCapacityDesc>This determines how many torpor buildings a person can connect to while in torpor. Each torpor building confers a specific benefit, so it's better to be able to connect to more of them.\n\nTorpor capacity can be increased using torpor capacity serums. These serums can be purchased from traders.</DeathrestCapacityDesc>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) torpor buildings.</PawnIsConnectedToBuildings>
+  <Wake>wake now</Wake>
+  <WakeDesc>Wake up from torpor.\n\n{PAWN_nameDef} has been in torpor for {DURATION}.</WakeDesc>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} needs to torpor for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any torpor buildings.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} can now wake safely.</WakeExtraDesc_Safe>
+  <CannotWakeNotEnoughHemogen>Cannot wake. Need at least {0} blood.</CannotWakeNotEnoughHemogen>
+  <AutoWakeDesc>When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} torpor is complete.\n\nWhile off, {PAWN_pronoun} will continue to torpor until you wake {PAWN_objective} manually.</AutoWakeDesc>
+  <IsDeathresting>{PAWN_nameDef} is in torpor.</IsDeathresting>
+  <CannotDeathrest>Cannot torpor</CannotDeathrest>
+  <StartDeathrest>Start torpor</StartDeathrest>
+  <ConfirmExitDeathrestUnderMinDays>Safely completing torpor takes {MINDURATION}, but {PAWN_nameDef} has only been in torpor for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} torpor, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <Deathresting>in torpor</Deathresting>
+  <NextDeathrestNeed>{PAWN_nameDef} should torpor in {DURATION} to avoid exhaustion.</NextDeathrestNeed>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} should torpor soon to avoid exhaustion.</PawnShouldDeathrestNow>
+  <ConsumeHemogenBelow>Consume blood below</ConsumeHemogenBelow>
+  <NeverConsumeHemogen>Never consume blood.</NeverConsumeHemogen>
+  <TimeActiveThisDeathrest>Time active this torpor</TimeActiveThisDeathrest>
+  <CannotAssignBedCannotDeathrest>Cannot enter torpor</CannotAssignBedCannotDeathrest>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} will continue to torpor so long as {PAWN_pronoun} has lethal injuries.</PawnWillKeepDeathrestingLethalInjuries>
+  <DeathrestPaused>Torpor stopped</DeathrestPaused>
+  <Deathrest>torpor</Deathrest>
+ 
+  <AbilityDisabledNoHemogenGene>{0_labelShort} is not vampiric.</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogen>{0_labelShort} does not have enough blood.</AbilityDisabledNoHemogen>
+  <AbilityHemogenCost>Blood cost</AbilityHemogenCost>
+  <AbilityHemogenGain>Base blood gain</AbilityHemogenGain>
+  
+  
+</LanguageData>
