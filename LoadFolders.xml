@@ -1,0 +1,6 @@
+<loadFolders>
+  <v1.4>
+    <li IfModNotActive="imranfish.xmlextensions">Common</li>
+    <li IfModActive="imranfish.xmlextensions">XML_Extensions</li>
+  </v1.4>
+</loadFolders>

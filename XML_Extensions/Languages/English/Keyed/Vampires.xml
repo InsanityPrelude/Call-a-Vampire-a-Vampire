@@ -1,0 +1,35 @@
+<LanguageData>
+
+  <Hemogen>blood</Hemogen>
+  <HemogenDesc>Blood is a biological energy source extracted from humans. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all.</HemogenDesc>
+  <ConsumeHemogenBelow>Consume blood below</ConsumeHemogenBelow>
+  <NeverConsumeHemogen>Never consume blood.</NeverConsumeHemogen>
+  <AbilityHemogenCost>Blood cost</AbilityHemogenCost>
+  <AbilityHemogenGain>Base blood gain</AbilityHemogenGain>  
+  <AbilityDisabledNoHemogen>{0_labelShort} does not have enough blood.</AbilityDisabledNoHemogen>
+  
+  <!--
+  <DeathrestCapacity>{torporLower} capacity</DeathrestCapacity>
+  <DeathrestCapacityDesc>This determines how many {torporLower} buildings a person can connect to while in {torporLower}. Each {torporLower} building confers a specific benefit, so it's better to be able to connect to more of them.\n\n{torporUpper} capacity can be increased using {torporLower} capacity serums. These serums can be purchased from traders.</DeathrestCapacityDesc>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) {torporLower} buildings.</PawnIsConnectedToBuildings>
+  <WakeDesc>Wake up from {torporLower}.\n\n{PAWN_nameDef} has been in {torporLower} for {DURATION}.</WakeDesc>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} needs to {torporLower} for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any {torporLower} buildings.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} can now wake safely.</WakeExtraDesc_Safe>
+  <CannotWakeNotEnoughHemogen>Cannot wake. Need at least {0} blood.</CannotWakeNotEnoughHemogen>
+  <AutoWakeDesc>When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} {torporLower} is complete.\n\nWhile off, {PAWN_pronoun} will continue to {torporLower} until you wake {PAWN_objective} manually.</AutoWakeDesc>
+  <IsDeathresting>{PAWN_nameDef} is in {torporLower}.</IsDeathresting>
+  <CannotDeathrest>Cannot {torporLower}</CannotDeathrest>
+  <StartDeathrest>Start {torporLower}</StartDeathrest>
+  <ConfirmExitDeathrestUnderMinDays>Safely completing {torporLower} takes {MINDURATION}, but {PAWN_nameDef} has only been in {torporLower} for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} {torporLower}, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <Deathresting>in {torporLower}</Deathresting>
+  <NextDeathrestNeed>{PAWN_nameDef} should {torporLower} in {DURATION} to avoid exhaustion.</NextDeathrestNeed>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} should {torporLower} soon to avoid exhaustion.</PawnShouldDeathrestNow>
+  <TimeActiveThisDeathrest>Time active this {torporLower}</TimeActiveThisDeathrest>
+  <CannotAssignBedCannotDeathrest>Cannot enter {torporLower}</CannotAssignBedCannotDeathrest>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} will continue to {torporLower} so long as {PAWN_pronoun} has lethal injuries.</PawnWillKeepDeathrestingLethalInjuries>
+  <DeathrestPaused>{torporUpper} stopped</DeathrestPaused>
+  <Deathrest>{torporLower}</Deathrest>
+  -->
+  
+  <AbilityDisabledNoHemogenGene>{0_labelShort} does not consume blood.</AbilityDisabledNoHemogenGene>
+</LanguageData>

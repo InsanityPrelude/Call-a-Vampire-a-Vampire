@@ -1,0 +1,58 @@
+<Defs>
+  <XmlExtensions.SettingsMenuDef>
+      <defName>callAVampire</defName>
+      <modId>callAVampire</modId>
+      <label>Call A Vampire a Vampire</label>
+      <settings>
+          <li Class="XmlExtensions.Setting.Text"> 
+              <text>Settings for Sanguophage Names</text>
+          </li>
+          <li Class="XmlExtensions.Setting.Gap"/>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>vampireUpper</key>
+              <label>Capitalized name for a Sanguophage</label>
+              <defaultValue>Vampire</defaultValue>
+          </li>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>vampireLower</key>
+              <label>Uncapitalized name for a Sanguophage</label>
+              <defaultValue>vampire</defaultValue>
+          </li>
+          <li Class="XmlExtensions.Setting.Gap"/>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>vampireAdjectiveUpper</key>
+              <label>Capitalized adjective for a Sanguophage</label>
+              <defaultValue>Vampiric</defaultValue> 
+          </li>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>vampireAdjectiveLower</key>
+              <label>Uncapitalized adjective for a Sanguophage</label>
+              <defaultValue>vampiric</defaultValue> 
+          </li>
+          <li Class="XmlExtensions.Setting.Gap"/>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>torporUpper</key>
+              <label>Capitalized word for Deathrest</label>
+              <defaultValue>Deathrest</defaultValue> 
+          </li>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>torporLower</key>
+              <label>Uncapitalized word for deathrest</label>
+              <defaultValue>deathrest</defaultValue>
+          </li>
+          <li Class="XmlExtensions.Setting.Text"> 
+              <text>Due to some issues with language files, certain UI elements will still refer to Deathrest even with this changed.</text>
+          </li>
+          <li Class="XmlExtensions.Setting.Gap"/>
+          <li Class="XmlExtensions.Setting.Textbox">
+              <key>vampireDrink</key>
+              <label>The verb for consuming blood from a target.</label>
+              <defaultValue>drink</defaultValue>
+          </li>
+          <li Class="XmlExtensions.Setting.Gap"/>
+          <li Class="XmlExtensions.Setting.Text"> 
+              <text>Restart required to make changes take effect.</text>
+          </li>
+      </settings>
+  </XmlExtensions.SettingsMenuDef>
+</Defs>

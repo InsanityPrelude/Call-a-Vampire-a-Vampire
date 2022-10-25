@@ -3,14 +3,14 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/XenotypeDef[defName="Sanguophage"]/description</xpath>
     <value>
-      <description>Vampires are a type of archotech-enhanced xenohuman. Powered by nanites, their abilities go far beyond normal genetic enhancements. They are mentally adept and supernaturally beautiful. In combat, they can launch deadly spines and heal injured friends. They don't age or die naturally and never suffer from disease or poison. A vampire can make a new vampire by reimplanting their own xenogerm into a person.\n\nVampires must regularly consume human blood, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.\n\nThe first vampire appeared thousands of years ago when the lord-explorer Varan-Dur sought to control a hyperintelligent archotech and found himself transformed by it instead. Every vampire is descended from him. Since then, vampires have often been hunted because of their destabilizing power and their need for blood. Since they can pass for baseliners, many live in hiding among typical humans.\n\nTheir numbers are unknown. Some think they are legends or rare irrelevancies. Some believe vampires secretly direct entire human civilizations. The stories speak of eternal lords ruling billions from slate-black space stations, or directing blood sacrifices at conferences in the underlayers of the deepest urbworlds.</description>
+      <description>Vampires are a type of archotech-enhanced xenohuman. Powered by archites, their abilities go far beyond normal genetic enhancements. They are mentally adept and supernaturally beautiful. In combat, they can launch deadly spines and heal injured friends. They don't age or die naturally and never suffer from disease or poison. A vampire can make a new vampire by reimplanting their own xenogerm into a person.\n\nVampires must regularly consume human blood, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.\n\nThe first vampire appeared thousands of years ago when the lord-explorer Varan-Dur sought to control a hyperintelligent archotech and found himself transformed by it instead. Every vampire is descended from him. Since then, vampires have often been hunted because of their destabilizing power and their need for blood. Since they can pass for baseliners, many live in hiding among typical humans.\n\nTheir numbers are unknown. Some think they are legends or rare irrelevancies. Some believe vampires secretly direct entire human civilizations. The stories speak of eternal lords ruling billions from slate-black space stations, or directing blood sacrifices at conferences in the underlayers of the deepest urbworlds.</description>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/XenotypeDef[defName="Sanguophage"]/descriptionShort</xpath>
     <value>
-      <descriptionShort>Vampires are ageless, deathless super-humans powered by archotech-created nanites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.</descriptionShort>
+      <descriptionShort>Vampires are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.</descriptionShort>
     </value>
   </Operation>  
   
@@ -104,7 +104,7 @@
         <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->vampire</li>
         <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->vampires</li>
 
-        <li>sanguophageInfo->(*Gray)About vampires: Vampires are ageless, deathless super-humans powered by archotech-created nanites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+        <li>sanguophageInfo->(*Gray)About vampires: Vampires are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
         </rulesStrings>
       </questDescriptionRules>
     </value>
@@ -137,7 +137,7 @@
       <rulesStrings>
         <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a vampire master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the vampire and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a vampire.\n\n[sanguophageInfo]</li>
 
-        <li>sanguophageInfo->(*Gray)About vampires: Vampires are ageless, deathless super-humans powered by archotech-created nanites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+        <li>sanguophageInfo->(*Gray)About vampires: Vampires are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that vampires must consume human blood to survive, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
       </rulesStrings>
       </questDescriptionRules>
     </value>
@@ -177,6 +177,20 @@
       <summary>One crashlanded vampire needing blood to survive, and one human colonist.</summary>
     </value>
   </Operation>        
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef[defName="Sanguophage"]/scenario/parts/li[1]/customSummary</xpath>
+    <value>
+      <customSummary>Start with one adult or child vampire and one other colonist of any age.</customSummary>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>  Defs/ScenarioDef[defName="Sanguophage"]/scenario/parts/li[1]/xenotypeCounts/li[1]/description</xpath>
+    <value>
+      <description>non-baby vampire</description>
+    </value>
+  </Operation>
   
     <!-- BUILDING DEFS -->
   <Operation Class="PatchOperationReplace">
@@ -443,27 +457,12 @@
     </value>
   </Operation>            
 
-      <!--- This is messy as shit, I'm just replacing the whole set of comps right here because I'm not 100% on how to reference just the specific one I want. Need to clean this up so it's compatible with mods that change rate of hemogen consumption and other things.-->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[@Name="DeathrestBuildingHemogenFueled"]/comps</xpath>
+    <xpath>Defs/ThingDef[@Name="DeathrestBuildingHemogenFueled"]/comps/li[2]/fuelLabel</xpath>
     <value>
-      <comps>
-        <li Class="CompProperties_Flickable"/>
-        <li Class="CompProperties_Refuelable">
-          <fuelConsumptionRate>0.08333</fuelConsumptionRate> <!-- Empty in one year -->
-          <fuelCapacity>5</fuelCapacity>
-          <fuelLabel>Blood</fuelLabel>
-          <fuelFilter>
-            <thingDefs>
-              <li>HemogenPack</li>
-            </thingDefs>
-          </fuelFilter>
-          <initialFuelPercent>1</initialFuelPercent>
-          <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-        </li>
-      </comps>
+      <fuelLabel>Blood</fuelLabel>
     </value>
-  </Operation>        
+  </Operation>           
       
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Hemopump"]/label</xpath>
@@ -639,14 +638,6 @@
     </value>
   </Operation>
       
-      <!-- CATEGORY DEFS -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/GeneCategoryDef[defName="Archite"]/label</xpath>
-    <value>
-      <label>nanite</label>
-    </value>     
-  </Operation>          
-  
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/GeneCategoryDef[defName="Hemogen"]/label</xpath>
     <value>
@@ -708,46 +699,5 @@
       <label>Torpor chamber</label>
     </value>
   </Operation>         
-      
-      <!-- ARCHITES TO NANITES -->
-  
-  <!--  I'll think about this one more. 
-  
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/AbilityDef[defName="Resurrection"]/description</xpath>
-    <value>
-      <description>Use nanites in the bloodstream to infuse a corpse's body with new life, repairing degenerated cell structures and kickstarting vital functions. The older and worse-preserved the corpse is, the more likely it is that they will come back with memory loss or health conditions. This ability seems to exhaust the nanites somehow, so it can only be used very rarely.</description>
-    </value>     
-  </Operation>               
-      
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/GeneDef[defName="Deathless"]/description</xpath>
-    <value>
-      <description>Carriers of this gene have nanites in the blood which will sustain their life processes no matter what. As long as the brain remains intact, a carrier of this gene will never die.</description>
-    </value>     
-  </Operation>              
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/GeneDef[defName="ArchiteMetabolism"]/label</xpath>
-    <value>
-      <label>nanite metabolism</label>
-    </value>     
-  </Operation>                
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/GeneDef[defName="ArchiteMetabolism"]/labelShortAdj</xpath>
-    <value>
-      <labelShortAdj>nanite-metabolic</labelShortAdj>
-    </value>     
-  </Operation>                
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/GeneDef[defName="ArchiteMetabolism"]/description</xpath>
-    <value>
-      <description>Carriers of this gene have special nanites in their cells that facilitate and optimize metabolism. This improves overall genetic and metabolic quality.</description>
-    </value>     
-  </Operation>          
-      
-      
-      
-  -->    
       
 </Patch>
