@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <AM_HuntFocus_Bruxa.description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nBruxa will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Bruxa will cause extra 10 burn damage.</AM_HuntFocus_Bruxa.description>
   <AM_HuntFocus_Ekkimian.description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nEkkimian will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against an Ekkimian will cause extra 10 burn damage.</AM_HuntFocus_Ekkimian.description>
   <AM_HuntFocus_Sanguophage.description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nNormal Vampires will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Vampire will cause extra 10 burn damage.\n - You'll get extra hunt focus precepts with VE Races - Vampire and Alpha Genes.</AM_HuntFocus_Sanguophage.description>
   <AM_HuntFocus_Sanguophage.label>vampire</AM_HuntFocus_Sanguophage.label>
   <AM_HuntFocus_Strigoi.description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nStrigoi will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Strigoi will cause extra 10 burn damage.</AM_HuntFocus_Strigoi.description>
-  <AM_SanguophageCamps_RaidingDesired.comps.li.3.thoughtStageDescriptions.li>More than 3 quadrums without killing a vampire</AM_SanguophageCamps_RaidingDesired.comps.li.3.thoughtStageDescriptions.li>
-  <AM_SanguophageCamps_RaidingDesired.comps.li.4.eventLabel>vampire camp raided</AM_SanguophageCamps_RaidingDesired.comps.li.4.eventLabel>
   <AM_SanguophageCamps_RaidingDesired.description>The lurking dens of vampires are a blight upon the world, festering with unnatural corruption. We take pride in raiding these camps, striking at their cursed kind.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - If this precept is active in your colony, you will get Vampire camp quests once per quadrum. These are storyteller-independent, they don't take the "slot" of a base game quest.</AM_SanguophageCamps_RaidingDesired.description>
 </LanguageData>

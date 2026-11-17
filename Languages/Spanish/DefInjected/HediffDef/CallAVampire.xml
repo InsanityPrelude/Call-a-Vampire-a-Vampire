@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Deathrest.description>Un sueño profundo, semejante a un coma, que dura varios días y restaura las reservas del organismo. Ciertos genes generan la necesidad de entrar en letargo. También puede mejorarse mediante edificios auxiliares que conceden bonificaciones especiales a quien duerme.</Deathrest.description>
+  <Deathrest.label>letargo</Deathrest.label>
+  <DeathrestExhaustion.description>Esta persona necesita entrar urgentemente en letargo para restablecer su equilibrio metabólico.</DeathrestExhaustion.description>
+  <DeathrestExhaustion.label>agotamiento por letargo</DeathrestExhaustion.label>
+  <GlucosoidRush.description>La velocidad de movimiento aumenta porque esta persona utilizó una bomba glucosoide durante el letargo. El efecto dura hasta el siguiente letargo.</GlucosoidRush.description>
+  <HemogenAmplified.description>La sangre obtenida de cualquier fuente aumenta gracias al amplificador sanguíneo que esta persona utilizó durante el letargo. El efecto dura hasta el siguiente letargo.</HemogenAmplified.description>
+  <HemogenAmplified.label>sangre potenciada</HemogenAmplified.label>
+  <HemogenCraving.description>Por falta de sangre, el organismo de esta persona está descomponiendo su propia médula ósea. Esto provoca desorientación y unas dolorosas ansias de sangre humana.</HemogenCraving.description>
+  <HemogenCraving.label>ansia de sangre</HemogenCraving.label>
+  <InterruptedDeathrest.description>El letargo se interrumpió mientras el metabolismo de esta persona seguía desequilibrado. Permanecerá enferma varios días hasta recuperar el equilibrio.</InterruptedDeathrest.description>
+  <InterruptedDeathrest.label>letargo interrumpido</InterruptedDeathrest.label>
+  <PsychofluidRush.description>La sensibilidad psíquica aumenta porque esta persona utilizó una bomba de psicofluido durante el letargo. El efecto dura hasta el siguiente letargo.</PsychofluidRush.description>
+  <VRE_ConsumedAnimalHemogen.description>Alimentarse de sangre animal mejora la regeneración y las capacidades de combate, pero reduce notablemente la capacidad de comunicarse con otros.</VRE_ConsumedAnimalHemogen.description>
+  <VRE_ConsumedAnimalHemogen.label>consumió sangre animal</VRE_ConsumedAnimalHemogen.label>
+  <VRE_ConsumedCorpseHemogen.description>La sangre de cadáver debilita considerablemente a quien la consume, pero aumenta mucho la consciencia y el filtrado sanguíneo.</VRE_ConsumedCorpseHemogen.description>
+  <VRE_ConsumedCorpseHemogen.label>consumió sangre de cadáver</VRE_ConsumedCorpseHemogen.label>
+  <VRE_ConsumedSanguophageHemogen.description>Consumir el poder contenido en la sangre de otros vampiros concede una mejora considerable a todas las capacidades.</VRE_ConsumedSanguophageHemogen.description>
+  <VRE_ConsumedSanguophageHemogen.label>consumió sangre vampírica</VRE_ConsumedSanguophageHemogen.label>
+  <VRE_HemogenAmplifiedWeak.description>Todas las ganancias de sangre aumentan porque esta persona utilizó un pequeño amplificador sanguíneo durante el letargo. El efecto dura hasta el siguiente letargo.</VRE_HemogenAmplifiedWeak.description>
+  <VRE_HemogenAmplifiedWeak.label>sangre potenciada (débil)</VRE_HemogenAmplifiedWeak.label>
+  <VRE_SolidifiedHemogen.description>La protección aumenta porque esta persona utilizó un solidificador sanguíneo durante el letargo. El efecto dura hasta el siguiente letargo.</VRE_SolidifiedHemogen.description>
+  <VRE_SolidifiedHemogen.label>sangre solidificada</VRE_SolidifiedHemogen.label>
+</LanguageData>

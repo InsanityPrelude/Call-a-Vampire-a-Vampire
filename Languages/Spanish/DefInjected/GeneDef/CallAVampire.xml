@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Bloodfeeder.description>Los portadores de este gen poseen pequeños colmillos retráctiles. Pueden morder a una persona que no oponga resistencia y beber directamente su sangre.</Bloodfeeder.description>
+  <Deathrest.description>Los portadores de este gen deben regenerarse periódicamente mediante un coma especial llamado letargo. Dura varios días, pero puede proporcionar ventajas considerables. Es posible acelerarlo y potenciar sus efectos mediante edificios y tecnologías especiales.\n\nQuienes pospongan el letargo sufrirán agotamiento por letargo.</Deathrest.description>
+  <Deathrest.label>letargo</Deathrest.label>
+  <HemogenDrain.description>Los portadores pierden 8 unidades adicionales de sangre al día por entropía biológica.</HemogenDrain.description>
+  <HemogenDrain.label>consumo de sangre</HemogenDrain.label>
+  <Hemogenic.description>Los portadores de este gen almacenan una reserva de energía biológica alimentada por sangre. Pueden obtenerla y consumirla de diversas formas, que se desbloquean mediante otros genes.\n\nLos portadores pierden 2 unidades de sangre al día por entropía biológica.</Hemogenic.description>
+  <Hemogenic.label>vampírico</Hemogenic.label>
+  <Hemogenic.resourceDescription>Una reserva de energía biológica que puede obtenerse y consumirse de diversas formas.\n\nLa reserva de sangre aumenta al beber de un humano o consumir bolsas de sangre. Puedes obtener bolsas de sangre mediante la operación médica «extraer bolsa de sangre» en un humano no vampírico.\n\nSi la reserva de sangre llega a cero, {PAWN_nameDef} sufrirá un gran malestar.</Hemogenic.resourceDescription>
+  <Hemogenic.resourceLabel>sangre</Hemogenic.resourceLabel>
+  <LongjumpLegs.description>Los portadores poseen fibras musculares especiales en las piernas, alimentadas por sangre vampírica, que les permiten saltar grandes distancias.</LongjumpLegs.description>
+  <PiercingSpine.description>Los portadores desarrollan una abertura en la parte superior del pecho y una reserva de espinas de queratina. Mediante su poder vampírico pueden lanzar estas espinas a gran velocidad contra objetivos cercanos con sorprendente precisión.</PiercingSpine.description>
+  <VRE_AnimalFeeder.description>Los portadores de este gen tienen pequeños colmillos retráctiles y un órgano en el paladar que les permite reponer sus reservas mediante sangre fresca de animales. Pueden morder a cualquier animal y succionarle la sangre directamente. En ocasiones, el animal atacará al portador.</VRE_AnimalFeeder.description>
+  <VRE_AnimalFeeder.label>vampiro vegetariano</VRE_AnimalFeeder.label>
+  <VRE_CorpseFeeder.description>Los portadores de este gen poseen pequeños colmillos retráctiles y un órgano en el paladar que les permite procesar sangre fría y putrefacta. Pueden morder cualquier cadáver humano y obtener sangre directamente.</VRE_CorpseFeeder.description>
+  <VRE_ExtremeHemogenDrain.description>Los portadores pierden 12 unidades adicionales de sangre al día por entropía biológica.</VRE_ExtremeHemogenDrain.description>
+  <VRE_ExtremeHemogenDrain.label>consumo sanguíneo extremo</VRE_ExtremeHemogenDrain.label>
+  <VRE_LowHemogenDrain.description>Los portadores pierden 4 unidades adicionales de sangre al día por entropía biológica.</VRE_LowHemogenDrain.description>
+  <VRE_LowHemogenDrain.label>consumo sanguíneo bajo</VRE_LowHemogenDrain.label>
+  <VRE_SanguoFeeder.description>Los portadores de este gen tienen pequeños colmillos retráctiles y un órgano en el paladar capaz de extraer sangre fresca de otras razas vampíricas. Pueden morder a un vampiro que no oponga resistencia, succionarle la sangre y aumentar directamente sus reservas.</VRE_SanguoFeeder.description>
+  <VRE_SanguoFeeder.label>bebedor de sangre vampírica</VRE_SanguoFeeder.label>
+</LanguageData>

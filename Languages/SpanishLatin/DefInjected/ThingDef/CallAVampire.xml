@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <AM_RaidSpawner.label>vampiro radio beacon</AM_RaidSpawner.label>
+  <DeathrestAccelerator.description>Este dispositivo se conecta a una persona dormida y acelera la conclusión de su letargo. Mejora el efecto del sarcófago de letargo mediante análisis sanguíneos más precisos y sustancias químicas más potentes. Debe conectarse a un sarcófago de letargo para funcionar.</DeathrestAccelerator.description>
+  <DeathrestAccelerator.label>acelerador de letargo</DeathrestAccelerator.label>
+  <DeathrestCapacitySerum.description>Un suero que aumenta de forma permanente el número de edificios de letargo a los que una persona puede conectarse durante su descanso.\n\nSolo pueden ingerirlo quienes poseen el gen de letargo.</DeathrestCapacitySerum.description>
+  <DeathrestCapacitySerum.label>suero de capacidad de letargo</DeathrestCapacitySerum.label>
+  <DeathrestCasket.description>Un sarcófago médico cerrado que acelera el letargo. Puede conectarse a otros dispositivos que proporcionan beneficios adicionales al ocupante. La cantidad de dispositivos conectables depende de la capacidad de letargo de la persona, visible al seleccionarla.\n\nSolo quienes poseen el gen de letargo pueden utilizar este sarcófago.</DeathrestCasket.description>
+  <DeathrestCasket.label>sarcófago de letargo</DeathrestCasket.label>
+  <GlucosoidPump.description>Este dispositivo permite que quien duerme se mueva más rápido al concluir el letargo. Introduce factores que estimulan los músculos y elimina residuos de los tejidos musculares. El efecto dura hasta el siguiente letargo de la persona. Debe conectarse a un sarcófago de letargo para funcionar.\n\nEste edificio consume sangre para funcionar.</GlucosoidPump.description>
+  <HemogenAmplifier.description>Este dispositivo deja al durmiente en un estado de potenciación sanguínea que le permite obtener más sangre de cualquier fuente. Mediante una sonda glandular y un analizador sanguíneo, se conecta a la persona en letargo y estimula su organismo. Debe conectarse a un sarcófago de letargo para funcionar.\n\nEste edificio consume sangre para funcionar.</HemogenAmplifier.description>
+  <HemogenAmplifier.label>amplificador sanguíneo</HemogenAmplifier.label>
+  <HemogenPack.description>Una bolsa de sangre refinada en un recipiente especial que impide su deterioro. Los humanos vampíricos pueden consumirla para recuperar sus reservas internas de sangre. También puede administrarse mediante una operación para revertir la pérdida de sangre.</HemogenPack.description>
+  <HemogenPack.label>bolsa de sangre</HemogenPack.label>
+  <Hemopump.description>Esta bomba de refinado de sangre aumenta la cantidad de energía vampírica que un vampiro en reposo puede almacenar en su cuerpo. Debe conectarse a un sarcófago de letargo para funcionar.\n\nEste edificio consume sangre para funcionar.</Hemopump.description>
+  <Hemopump.label>bomba de sangre</Hemopump.label>
+  <PsychofluidPump.description>Este dispositivo aumenta la sensibilidad psíquica de una persona en letargo al estimular rítmicamente sus tejidos neuronales. Debe conectarse a un sarcófago de letargo para funcionar.\n\nEste edificio consume sangre para funcionar.</PsychofluidPump.description>
+  <SanguphageMeetingTorch.description>Una antorcha de madera tratada especialmente que proyecta luz roja sobre una gran superficie. Los vampiros se reúnen en torno a estas antorchas durante sus encuentros ceremoniales. Su resplandor sanguíneo resulta especialmente agradable para quienes poseen el gen de bebedor de sangre. Puede reabastecerse automáticamente con madera y desprende una pequeña cantidad de calor.</SanguphageMeetingTorch.description>
+  <VRE_Draincasket.description>Un siniestro artefacto diseñado para extraer sangre de una persona mientras mantiene sus funciones vitales al mínimo. Este lúgubre sarcófago conserva al ocupante en un estado intermedio entre la vida y la muerte, mientras su cuerpo se vacía lentamente de su preciada sangre. La supervivencia de la persona encerrada depende de recibir alimento regularmente, pues todavía puede morir de hambre.\n\nProduce 2 bolsas de sangre al día mientras el ocupante disponga de comida y el sarcófago esté conectado a una red sanguínea. Si se queda sin alimento, el ocupante morirá en unos 2 días.\n\nSi está instalado Vanilla Nutrient Paste Expanded, obtendrá nutrientes de esa red siempre que haya disponible más de una unidad de comida.</VRE_Draincasket.description>
+  <VRE_HemodynamicAccelerator.description>Un dispositivo avanzado diseñado para acelerar el letargo a costa de un mayor consumo de sangre. Al conectarse a una persona en letargo, utiliza análisis sanguíneos complejos y potentes estimulantes para maximizar la eficacia del sarcófago. A medida que acelera la recuperación, el acelerador hemodinámico exige un suministro continuo de sangre para alimentar su funcionamiento. Debe estar conectado a un sarcófago de letargo.</VRE_HemodynamicAccelerator.description>
+  <VRE_HemodynamicAccelerator.label>sarcófago de letargo</VRE_HemodynamicAccelerator.label>
+  <VRE_HemogenDrain.description>Un recipiente colector, parecido a una tolva, que introduce sangre en la red y llena los depósitos conectados.</VRE_HemogenDrain.description>
+  <VRE_HemogenDrain.label>desagüe de sangre</VRE_HemogenDrain.label>
+  <VRE_HemogenPack_Animal.description>Sangre animal. Mejora la regeneración y las capacidades de combate, pero reduce considerablemente la capacidad de comunicarse con otros.</VRE_HemogenPack_Animal.description>
+  <VRE_HemogenPack_Animal.label>bolsa de sangre (animal)</VRE_HemogenPack_Animal.label>
+  <VRE_HemogenPack_Corpse.description>Sangre contaminada y putrefacta procedente de un cadáver. Debilita mucho a quien la consume, pero mejora considerablemente el filtrado sanguíneo.</VRE_HemogenPack_Corpse.description>
+  <VRE_HemogenPack_Corpse.label>bolsa de sangre (cadáver)</VRE_HemogenPack_Corpse.label>
+  <VRE_HemogenPack_Sanguophage.description>Sangre pura y espesa de otro vampiro. Es el tipo de sangre más raro y concede grandes mejoras a todas las capacidades.</VRE_HemogenPack_Sanguophage.description>
+  <VRE_HemogenPack_Sanguophage.label>bolsa de sangre (vampiro)</VRE_HemogenPack_Sanguophage.label>
+  <VRE_HemogenPipe.description>Una tubería utilizada para transportar sangre entre grifos, desagües, depósitos y estructuras alimentadas con sangre.</VRE_HemogenPipe.description>
+  <VRE_HemogenPipe.label>tubería de sangre</VRE_HemogenPipe.label>
+  <VRE_HemogenSolidifier.description>Un dispositivo diseñado para mejorar la resistencia de los vampiros en letargo mediante la modificación de la estructura molecular de su piel. Con proyectores biorresonantes y nanoagentes derivados de la sangre, el solidificador refuerza y engrosa las moléculas de la piel. Mientras el vampiro duerme, teje una densa capa protectora que vuelve su cuerpo más resistente al daño. Debe conectarse a un sarcófago de letargo para funcionar, de modo que el ocupante despierte con una capacidad defensiva mejorada.</VRE_HemogenSolidifier.description>
+  <VRE_HemogenSolidifier.label>solidificador sanguíneo</VRE_HemogenSolidifier.label>
+  <VRE_HemogenTap.description>Un recipiente distribuidor, parecido a una tolva, que suministra sangre para su posterior uso.</VRE_HemogenTap.description>
+  <VRE_HemogenTap.label>grifo de sangre</VRE_HemogenTap.label>
+  <VRE_HemogenValve.description>Abre o cierra el flujo de sangre.</VRE_HemogenValve.description>
+  <VRE_HemogenValve.label>válvula de sangre</VRE_HemogenValve.label>
+  <VRE_HemogenVat.description>Un depósito industrial para almacenar sangre suministrada por una red de tuberías. Puede configurarse para extraer sangre utilizable según se necesite.</VRE_HemogenVat.description>
+  <VRE_HemogenVat.label>depósito de sangre</VRE_HemogenVat.label>
+  <VRE_InvocationMatrix.description>Un dispositivo sofisticado que infunde capacidades vampíricas raras y poderosas en las personas que están en letargo. Mediante un complejo sistema de conductos sanguíneos y resonadores de esencia, la matriz se conecta a un sarcófago de letargo y canaliza la fuerza vital del ocupante para despertar el potencial oculto de su linaje. Mientras la persona duerme, la matriz de invocación le concede un poder único elegido. Este edificio necesita un suministro constante de sangre para funcionar.</VRE_InvocationMatrix.description>
+  <VRE_SmallHemogenAmplifier.description>Este dispositivo permite a quien está en letargo obtener un poco más de sangre de cualquier fuente. Una sonda glandular y un analizador sanguíneo estimulan determinadas glándulas vampíricas del ocupante. Debe conectarse a un sarcófago de letargo y consumir sangre para funcionar.</VRE_SmallHemogenAmplifier.description>
+  <VRE_SmallHemogenAmplifier.label>amplificador sanguíneo pequeño</VRE_SmallHemogenAmplifier.label>
+  <VRE_SmallHemopump.description>Esta pequeña bomba de refinado aumenta la cantidad de sangre que el ocupante del sarcófago puede almacenar en su cuerpo. Debe conectarse a un sarcófago de letargo y consumir sangre para funcionar.</VRE_SmallHemopump.description>
+  <VRE_SmallHemopump.label>bomba de sangre pequeña</VRE_SmallHemopump.label>
+  <VRE_UndergroundHemogenPipe.description>Tuberías ocultas de acero diseñadas para transportar sangre entre grifos, desagües, depósitos y estructuras alimentadas con sangre.</VRE_UndergroundHemogenPipe.description>
+  <VRE_UndergroundHemogenPipe.label>tubería oculta de sangre</VRE_UndergroundHemogenPipe.label>
+</LanguageData>

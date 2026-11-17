@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Deathrest.description>Las personas con el gen de letargo deben entrar en él cada cierto número de días o cuadrums. El letargo consiste en un coma regenerativo de varios días durante el cual el durmiente parece muerto.\n\nHay diversos edificios especiales que pueden conectarse a una persona en letargo y proporcionarle bonificaciones al despertar.\n\nPasar demasiado tiempo sin entrar en letargo causa agotamiento por letargo, que reduce enormemente las capacidades físicas.</Deathrest.description>
+  <Deathrest.label>letargo</Deathrest.label>
+</LanguageData>

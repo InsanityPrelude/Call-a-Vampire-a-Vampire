@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Deathrest.helpText>Los colonos con el gen de letargo deben regenerarse periódicamente mediante un coma especial llamado letargo. Este proceso dura varios días.\n\nLos dispositivos especiales colocados cerca del sarcófago pueden proporcionar bonificaciones al durmiente. Cada persona solo puede conectarse a un número limitado de dispositivos, indicado por su capacidad de letargo.\n\nPuedes aumentar esa capacidad inyectando sueros de capacidad de letargo, disponibles entre los comerciantes.</Deathrest.helpText>
+  <Deathrest.label>Letargo</Deathrest.label>
+</LanguageData>

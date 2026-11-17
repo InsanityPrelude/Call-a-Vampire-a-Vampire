@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <VRE_DrinkHemogenCorpse.reportString>bebiendo sangre del cadáver TargetA.</VRE_DrinkHemogenCorpse.reportString>
+  <VRE_ExtractHemogenAnimal.reportString>extrayendo sangre animal de TargetA.</VRE_ExtractHemogenAnimal.reportString>
+  <VRE_ExtractHemogenCorpse.reportString>extrayendo sangre de cadáver de TargetA.</VRE_ExtractHemogenCorpse.reportString>
+  <VRE_ExtractHemogenSanguophage.reportString>extrayendo sangre de vampiro de TargetA.</VRE_ExtractHemogenSanguophage.reportString>
+  <VRE_HemohunterJob.reportString>bebiendo sangre de TargetA a la fuerza.</VRE_HemohunterJob.reportString>
+</LanguageData>

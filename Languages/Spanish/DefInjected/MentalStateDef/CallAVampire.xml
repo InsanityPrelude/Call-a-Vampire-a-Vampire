@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <VRE_Hemohunter.baseInspectLine>Estado mental: cazador de sangre</VRE_Hemohunter.baseInspectLine>
+  <VRE_Hemohunter.beginLetter>¡{0} se ha convertido en cazador de sangre!\n\n[PAWN_pronoun] beberá la sangre de cualquiera que [PAWN_pronoun] vea, hasta recuperar un nivel seguro de reservas.</VRE_Hemohunter.beginLetter>
+  <VRE_Hemohunter.label>cazador de sangre</VRE_Hemohunter.label>
+  <VRE_Hemohunter.recoveryMessage>El estado de cazador de sangre de {0} ha terminado.</VRE_Hemohunter.recoveryMessage>
+</LanguageData>

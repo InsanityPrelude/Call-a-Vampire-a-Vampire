@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <VRE_BloodMoonCondition.description>Una de las lunas de este planeta ha entrado en la sombra de este mundo del borde, enloqueciendo a los vampiros de hambre.</VRE_BloodMoonCondition.description>
+  <VRE_BloodMoonCondition.letterText>Una de las lunas de este planeta ha entrado en la sombra de este mundo del borde, que bloquea la luz solar directa sobre la superficie lunar. Como consecuencia, la luna ha adquirido un color carmesí: el fenómeno conocido como luna de sangre.\n\nDurante este período, el metabolismo vampírico se acelera, impulsando a los vampiros hambrientos a salir de sus guaridas. Todo vampiro con menos de la mitad de sus reservas sanguíneas entrará en el estado mental de cazador de sangre. Las reservas se agotarán mucho más rápido mientras dure la luna de sangre.</VRE_BloodMoonCondition.letterText>
+</LanguageData>

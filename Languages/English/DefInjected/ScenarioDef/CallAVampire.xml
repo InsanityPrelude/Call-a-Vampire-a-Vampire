@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <Sanguophage.description>When a dark stranger offered you a cure for your cancer, you were ready to agree to anything. He made you into a vampire - an immortal blood-drinker hated by a thousand religions. You hid your condition for years, but eventually a hunter tracked you down. Stowing away on the first starship leaving the system, you barely escaped alive.\n\nNote: Vampires have unique strengths and weaknesses, which makes this a difficult scenario.</Sanguophage.description>
   <Sanguophage.label>The Vampire</Sanguophage.label>
-  <Sanguophage.scenario.parts.li.0.customSummary>Start with one adult or child vampire and one other colonist of any age.</Sanguophage.scenario.parts.li.0.customSummary>
-  <Sanguophage.scenario.parts.li.0.xenotypeCounts.li.0.description>non-baby vampire</Sanguophage.scenario.parts.li.0.xenotypeCounts.li.0.description>
   <Sanguophage.scenario.summary>One crashlanded vampire needing blood to survive, and one human colonist.</Sanguophage.scenario.summary>
 </LanguageData>

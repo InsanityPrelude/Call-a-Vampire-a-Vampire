@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Bloodfeed.description>Muerde al objetivo y extrae directamente su sangre. La víctima perderá sangre y quedará horrorizada por la experiencia, pero no sufrirá otros daños. Un coagulante de acción rápida cerrará la herida para impedir la hemorragia.\n\nSolo puede usarse contra humanos no vampíricos. La cantidad de sangre obtenida depende del tamaño corporal de la víctima.</Bloodfeed.description>
+  <Bloodfeed.label>beber sangre</Bloodfeed.label>
+  <Longjump.description>Salta a un lugar lejano gracias a la extraordinaria fuerza de las piernas vampíricas.</Longjump.description>
+  <PiercingSpine.description>Emplea el poder vampírico para disparar una espina ósea contra el objetivo. La espina emerge a través de la piel, por una abertura situada entre las clavículas. Pese a este peculiar mecanismo de disparo, resulta sorprendentemente fácil apuntar.</PiercingSpine.description>
+  <VRE_AnimalFeed.description>Muerde al animal objetivo y extrae directamente su sangre. El animal perderá sangre y se asustará por la experiencia, lo que podría llevarlo a atacar. Un coagulante de acción rápida cerrará la herida para impedir la hemorragia.\n\nSolo puede usarse contra animales.</VRE_AnimalFeed.description>
+  <VRE_CorpseFeed.description>Muerde el cadáver objetivo y bebe la sangre que aún le quede. El cuerpo perderá toda la sangre restante.\n\nSolo puede usarse contra cadáveres humanos.</VRE_CorpseFeed.description>
+  <VRE_Hemosmosis.description>Absorbe la sangre derramada en el suelo. Resulta útil tras combates especialmente sangrientos.</VRE_Hemosmosis.description>
+  <VRE_Hemosmosis_SingleUse.description>Absorbe la sangre derramada en el suelo. Resulta útil tras combates especialmente sangrientos.</VRE_Hemosmosis_SingleUse.description>
+  <VRE_PiercingSpine_SingleUse.description>Emplea el poder vampírico para disparar una espina ósea contra el objetivo. La espina emerge por una abertura de la piel situada entre las clavículas. Pese a este peculiar mecanismo de disparo, es sorprendentemente fácil apuntar.</VRE_PiercingSpine_SingleUse.description>
+  <VRE_SanguoFeed.description>Muerde al vampiro objetivo y bebe directamente su sangre. La víctima perderá sangre y se sentirá ofendida por la experiencia, pero no sufrirá otros daños. Un coagulante de acción rápida cerrará la herida para impedir la hemorragia.\n\nSolo puede usarse contra humanos vampíricos.</VRE_SanguoFeed.description>
+</LanguageData>

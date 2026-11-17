@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <AM_RaidSpawner.label>vampire radio beacon</AM_RaidSpawner.label>
   <DeathrestAccelerator.description>This device connects with a slumbering person and makes torpor complete quicker. It enhances the effect of the torpor casket using finer blood analysis and more powerful chemicals. It must be connected to a torpor casket to function.</DeathrestAccelerator.description>
   <DeathrestAccelerator.label>torpor accelerator</DeathrestAccelerator.label>
-  <DeathrestBuildingHemogenFueled.comps.li.2.fuelLabel>Blood</DeathrestBuildingHemogenFueled.comps.li.2.fuelLabel>
   <DeathrestCapacitySerum.description>A serum that permanently increases the number of torpor buildings a person can connect to during torpor.\n\nThe serum can only be ingested by individuals with the torpor gene.</DeathrestCapacitySerum.description>
   <DeathrestCapacitySerum.label>torpor capacity serum</DeathrestCapacitySerum.label>
   <DeathrestCasket.description>An enclosed med-casket that accelerates the process of torpor. It can connect to other devices which confer additional bonuses on the occupant. The number of devices that can connect depends on the person's torpor capacity, which can be seen by selecting them.\n\nOnly those with the torpor gene can use the torpor casket.</DeathrestCasket.description>

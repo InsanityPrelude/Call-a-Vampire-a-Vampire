@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <HemogenGainFactor.description>Multiplica la cantidad de sangre obtenida al consumirla de cualquier fuente.</HemogenGainFactor.description>
+  <HemogenGainFactor.label>multiplicador de obtención de sangre</HemogenGainFactor.label>
+</LanguageData>

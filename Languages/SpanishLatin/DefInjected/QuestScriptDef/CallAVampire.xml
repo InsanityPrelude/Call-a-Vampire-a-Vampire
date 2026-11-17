@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SanguophageShip.questContentRules.rulesStrings><li>sanguophageShuttleCrashedLetterLabel-&gt;Lanzadera estrellada</li>
+      <li>sanguophageShuttleCrashedLetterText-&gt;Una lanzadera que transportaba a un señor vampiro y [thrallCount] sirvientes se ha estrellado cerca. Los ocupantes abandonarán los restos y se prepararán para combatir.</li>
+
+      <li>reinforcementsArrivedLetterLabel-&gt;Refuerzos de sirvientes</li>
+      <li>reinforcementsArrivedLetterText-&gt;Están llegando sirvientes en cápsulas de transporte para reforzar al vampiro accidentado.</li>
+
+      <li>assaultBeginLetterLabel-&gt;Ha comenzado el asalto</li>
+      <li>assaultBeginLetterText-&gt;¡El señor vampiro hostil y [sanguophage_possessive] sirvientes han iniciado un asalto contra la colonia!</li>
+      </SanguophageShip.questContentRules.rulesStrings>
+  </LanguageData>

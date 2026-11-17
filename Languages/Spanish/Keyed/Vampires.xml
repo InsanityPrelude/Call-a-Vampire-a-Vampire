@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <Hemogen>sangre</Hemogen>
+  <HemogenDesc>La sangre es una fuente de energía biológica extraída de los humanos. Los humanos corrientes la producen de forma natural y la consumen con el tiempo como parte de su equilibrio interno. Algunos xenotipos humanos la utilizan como combustible para determinadas habilidades, mientras que otros deben consumirla para sobrevivir.</HemogenDesc>
+  <ConsumeHemogenBelow>Consumir sangre por debajo de</ConsumeHemogenBelow>
+  <NeverConsumeHemogen>No consumir sangre nunca.</NeverConsumeHemogen>
+  <AbilityHemogenCost>Coste de sangre</AbilityHemogenCost>
+  <AbilityHemogenGain>Obtención básica de sangre</AbilityHemogenGain>
+  <AbilityDisabledNoHemogen>{0_labelShort} no tiene suficiente sangre.</AbilityDisabledNoHemogen>
+  <DeathrestCapacity>capacidad de letargo</DeathrestCapacity>
+  <DeathrestCapacityDesc>Determina a cuántos edificios de letargo puede conectarse una persona mientras permanece en ese estado. Cada edificio proporciona un beneficio concreto, por lo que conviene poder conectarse a varios.\n\nLa capacidad de letargo puede aumentarse mediante sueros de capacidad de letargo, disponibles entre los comerciantes.</DeathrestCapacityDesc>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} está conectado a {CURRENT} / {MAX} (máx.) edificios de letargo.</PawnIsConnectedToBuildings>
+  <WakeDesc>Despertar del letargo.\n\n{PAWN_nameDef} lleva {DURATION} en letargo.</WakeDesc>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} necesita permanecer en letargo durante al menos {TOTAL}. Si despiertas a {PAWN_objective} antes de tiempo, {PAWN_objective} enfermará, y {PAWN_pronoun} no recibirá los beneficios de los edificios de letargo.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} ya puede despertar sin peligro.</WakeExtraDesc_Safe>
+  <CannotWakeNotEnoughHemogen>No puede despertar. Necesita al menos {0} unidades de sangre.</CannotWakeNotEnoughHemogen>
+  <AutoWakeDesc>Si está activado, {PAWN_nameDef} despertará automáticamente al completar {PAWN_possessive} letargo.\n\nSi está desactivado, {PAWN_pronoun} permanecerá en letargo hasta que despiertes a {PAWN_objective} manualmente.</AutoWakeDesc>
+  <IsDeathresting>{PAWN_nameDef} está en letargo.</IsDeathresting>
+  <CannotDeathrest>No puede entrar en letargo</CannotDeathrest>
+  <StartDeathrest>Entrar en letargo</StartDeathrest>
+  <ConfirmExitDeathrestUnderMinDays>Completar el letargo sin riesgos requiere {MINDURATION}, pero {PAWN_nameDef} solo lleva {CURDURATION} en ese estado.\n\nDespertar a {PAWN_nameDef} ahora interrumpiría {PAWN_possessive} letargo, desequilibraría {PAWN_possessive} metabolismo y provocaría que {PAWN_objective} enfermara durante varios días.\n\n¿Seguro que quieres despertar a {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <Deathresting>en letargo</Deathresting>
+  <NextDeathrestNeed>{PAWN_nameDef} debería entrar en letargo dentro de {DURATION} para evitar el agotamiento.</NextDeathrestNeed>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} debería entrar pronto en letargo para evitar el agotamiento.</PawnShouldDeathrestNow>
+  <TimeActiveThisDeathrest>Tiempo activo de este letargo</TimeActiveThisDeathrest>
+  <CannotAssignBedCannotDeathrest>No puede entrar en letargo</CannotAssignBedCannotDeathrest>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} permanecerá en letargo mientras {PAWN_pronoun} tenga heridas mortales.</PawnWillKeepDeathrestingLethalInjuries>
+  <DeathrestPaused>Letargo detenido</DeathrestPaused>
+  <Deathrest>letargo</Deathrest>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} no es vampírico.</AbilityDisabledNoHemogenGene>
+</LanguageData>

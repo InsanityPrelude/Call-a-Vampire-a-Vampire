@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <BloodTransfusion.description>Utiliza bolsas de sangre para mitigar los efectos de una hemorragia. Cada bolsa reduce la pérdida de sangre en un 35 %. La operación también restablece la reserva sanguínea de los individuos vampíricos.</BloodTransfusion.description>
+  <ExtractHemogenPack.description>Extrae una bolsa de sangre del objetivo. La operación no producirá ninguna bolsa si el paciente no tiene suficiente sangre.\n\nLas bolsas pueden administrarse a otras personas para reducir la pérdida de sangre o para alimentar a quienes necesitan beberla.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.jobString>extrayendo una bolsa de sangre</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.label>extraer bolsa de sangre</ExtractHemogenPack.label>
+</LanguageData>

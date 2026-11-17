@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Bloodfeed.description>Los carceleros ignorarán a este prisionero. Cuando un vampiro tenga poca sangre, podrá alimentarse de él. Los demás prisioneros vampiros también podrán hacerlo si comparten celda.</Bloodfeed.description>
+  <HemogenFarm.description>Cuando sea posible, se programará automáticamente una operación para extraer bolsas de sangre de este prisionero sin matarlo. La realizará un médico.</HemogenFarm.description>
+  <HemogenFarm.label>granja de sangre</HemogenFarm.label>
+</LanguageData>
