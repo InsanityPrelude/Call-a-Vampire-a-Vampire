@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BloodTransfusion.description>Use blood packs to reduce the effects of blood loss. Each blood pack used recovers 35% blood loss. The operation will also restore blood supply to vampiric individuals.</BloodTransfusion.description>
+  <ExtractHemogenPack.description>Extract a blood pack from the target. The operation will fail to produce a blood pack if the target does not have enough blood.\n\nBlood packs can be administered to others to reduce blood loss or to satiate those who feed on blood.</ExtractHemogenPack.description>
+  <ExtractHemogenPack.jobString>extracting blood pack</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.label>extract blood pack</ExtractHemogenPack.label>
+</LanguageData>

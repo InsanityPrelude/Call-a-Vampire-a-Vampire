@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Bloodfeed.description>Bite the target and extract their blood directly. The target will lose blood and will be horrified by the interaction, but will be otherwise unharmed. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan only target non-vampiric humans. Blood gain is affected by the target’s body size.</Bloodfeed.description>
+  <Bloodfeed.label>drink</Bloodfeed.label>
+  <Longjump.description>Jump to a distant location using super-strong vampiric legs.</Longjump.description>
+  <PiercingSpine.description>Use vampiric power to launch a bony spine at the target. The spine exits through the skin from an opening between the collarbones. Given the method of launch, it is surprisingly easy to aim.</PiercingSpine.description>
+  <VRE_AnimalFeed.description>Bite the target animal and extract their blood directly. The animal will lose blood and will be horrified by the interaction, which can result in it lashing out. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan only target animals.</VRE_AnimalFeed.description>
+  <VRE_CorpseFeed.description>Bite the target corpse and drink whatever remains of their blood. The corpse will lose any remaining blood.\n\nCan only target human corpses.</VRE_CorpseFeed.description>
+  <VRE_Hemosmosis.description>Absorb blood that has been spilled upon the ground.  Useful in the aftermath of gory battles.</VRE_Hemosmosis.description>
+  <VRE_Hemosmosis_SingleUse.description>Absorb blood that has been spilled upon the ground.  Useful in the aftermath of gory battles.</VRE_Hemosmosis_SingleUse.description>
+  <VRE_PiercingSpine_SingleUse.description>Use vampiric power to launch a bony spine at the target. The spine exits through the skin from an opening between the collarbones. Given the method of launch, it is surprisingly easy to aim.</VRE_PiercingSpine_SingleUse.description>
+  <VRE_SanguoFeed.description>Bite the target vampire and drink blood from them directly. The target will lose blood and will be insulted by the interaction, but will be otherwise unharmed. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan only target vampiric humans.</VRE_SanguoFeed.description>
+</LanguageData>

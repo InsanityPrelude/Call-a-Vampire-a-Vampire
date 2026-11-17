@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Bloodfeeder.description>Carriers of this gene have small retractable fangs. They can bite an unresisting person, and drink their blood directly.</Bloodfeeder.description>
+  <Deathrest.description>Carriers of this gene must periodically regenerate themselves in a special coma called torpor. Torpor takes days, but can confer substantial bonuses. Torpor can be accelerated and its effects enhanced by the use of a variety of special buildings and technologies.\n\nThose who put off torpor will suffer from torpor exhaustion.</Deathrest.description>
+  <Deathrest.label>torpor</Deathrest.label>
+  <HemogenDrain.description>Carriers lose an additional 8 blood per day from biological entropy.</HemogenDrain.description>
+  <HemogenDrain.label>blood drain</HemogenDrain.label>
+  <Hemogenic.customEffectDescriptions.li>Gives blood supply.</Hemogenic.customEffectDescriptions.li>
+  <Hemogenic.description>Carriers of this gene have a reserve of biological strength powered by blood. The resource can be gained and spent in various ways, all of which are unlocked by other genes.\n\nCarriers lose 2 blood per day from biological entropy.</Hemogenic.description>
+  <Hemogenic.label>vampiric</Hemogenic.label>
+  <Hemogenic.resourceDescription>A reserve of biological strength which can be gained and spent in a variety of ways.\n\nBlood can be increased by drinking from a human or consuming blood packs. You can obtain blood packs using the 'extract blood pack' medical operation on a non-vampiric human.\n\nIf blood reaches zero, {PAWN_nameDef} will become very unhappy.</Hemogenic.resourceDescription>
+  <Hemogenic.resourceLabel>blood</Hemogenic.resourceLabel>
+  <LongjumpLegs.description>Carriers have special vampirically blood-powered muscle fibers in their legs which allow them to jump great distances.</LongjumpLegs.description>
+  <PiercingSpine.description>Carriers grow an opening in their upper chest along with a quiver of keratin spines. Using vampiric power, they can fire these spines at high speed at nearby targets with surprising accuracy.</PiercingSpine.description>
+  <VRE_AnimalFeeder.description>Carriers of this gene have small retractable fangs and an organ on the roof of the mouth which can allow them to fill their blood reserves using fresh blood from an animal. They can bite any animal and suck their blood directly. This can sometimes make the animal attack the gene carrier.</VRE_AnimalFeeder.description>
+  <VRE_AnimalFeeder.label>vegetarian vampire</VRE_AnimalFeeder.label>
+  <VRE_CorpseFeeder.description>Carriers of this gene have small retractable fangs and an organ on the roof of the mouth which allows them to process cold, rotting blood. They can bite any human corpse and gain blood directly.</VRE_CorpseFeeder.description>
+  <VRE_ExtremeHemogenDrain.description>Carriers lose an additional 12 hemogen per day from biological entropy.</VRE_ExtremeHemogenDrain.description>
+  <VRE_ExtremeHemogenDrain.label>extreme blood drain</VRE_ExtremeHemogenDrain.label>
+  <VRE_LowHemogenDrain.description>Carriers lose an additional 4 blood units per day from biological entropy.</VRE_LowHemogenDrain.description>
+  <VRE_LowHemogenDrain.label>low blood drain</VRE_LowHemogenDrain.label>
+  <VRE_SanguoFeeder.description>Carriers of this gene have small retractable fangs and an organ on the roof of the mouth which can extract hemogen from fresh warm blood of other vampiric races. They can bite an unresisting vampire, suck the blood, and increase their reserves directly.</VRE_SanguoFeeder.description>
+  <VRE_SanguoFeeder.label>vampire feeder</VRE_SanguoFeeder.label>
+</LanguageData>

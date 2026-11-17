@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Deathrest.helpText>Colonists with the torpor gene must periodically regenerate themselves in a special coma called torpor. This takes several days.\n\nSpecial machines placed near the casket can give bonuses to the sleeper. A person can only connect to a limited number of machines - this number is shown by their torpor capacity.\n\nYou can increase torpor capacity by injecting torpor capacity serums. These can be purchased from traders.</Deathrest.helpText>
+  <Deathrest.label>Torpor</Deathrest.label>
+</LanguageData>

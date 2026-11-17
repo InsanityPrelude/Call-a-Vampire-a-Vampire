@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRE_Hemohunter.baseInspectLine>Mental state: Bloodhunter</VRE_Hemohunter.baseInspectLine>
+  <VRE_Hemohunter.beginLetter>{0} has become a bloodhunter! \n\n[PAWN_pronoun] will drain blood off of anyone [PAWN_pronoun] sees, until their blood reserves rise to a safe level.</VRE_Hemohunter.beginLetter>
+  <VRE_Hemohunter.label>bloodhunter</VRE_Hemohunter.label>
+  <VRE_Hemohunter.recoveryMessage>{0}'s bloodhunter state has come to an end.</VRE_Hemohunter.recoveryMessage>
+</LanguageData>

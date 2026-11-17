@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRE_BloodMoonCondition.description>One of the moons of this planet has orbited into the rimworld’s umbra, making vampires go mad with hunger.</VRE_BloodMoonCondition.description>
+  <VRE_BloodMoonCondition.letterText>One of the moons of this planet has orbited into the rimworld’s umbra, blocking all direct sunlight from illuminating the moon’s surface. This resulted in the moon taking on a crimson color - a phenomena known as the blood moon.\n\nDuring this time, vampiric metabolisms will be driven into overdrive, driving blood-starved vampires out of their caves. Any vampire with less than half blood supply will enter the bloodhunter mental state. Blood will drain significantly quicker during blood moon.</VRE_BloodMoonCondition.letterText>
+</LanguageData>

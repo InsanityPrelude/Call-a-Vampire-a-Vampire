@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Deathrest.description>A deep coma-like sleep that lasts several days and restores the body's resources. Certain genes create a need for torpor. Torpor can also be enhanced with various support buildings that give special bonuses to the sleeper.</Deathrest.description>
+  <Deathrest.label>torpor</Deathrest.label>
+  <DeathrestExhaustion.description>This person desperately needs to enter torpor to rebalance their metabolism.</DeathrestExhaustion.description>
+  <DeathrestExhaustion.label>torpor exhaustion</DeathrestExhaustion.label>
+  <DeathrestHediffBase.extraTooltip>Lasts until the next torpor.</DeathrestHediffBase.extraTooltip>
+  <GlucosoidRush.description>Move speed is increased because this person used a glucosoid pump while in torpor. This effect lasts until the next torpor.</GlucosoidRush.description>
+  <HemogenAmplified.description>All blood gains are multiplied up because this person used a blood amplifier while in torpor. This effect lasts until the next torpor.</HemogenAmplified.description>
+  <HemogenAmplified.label>blood amplified</HemogenAmplified.label>
+  <HemogenCraving.description>Due to a lack of blood, this person's body is breaking down their own bone marrow. This causes disorientation and a painful craving for human blood.</HemogenCraving.description>
+  <HemogenCraving.label>blood craving</HemogenCraving.label>
+  <InterruptedDeathrest.description>Torpor was interrupted while this person's metabolism was still out of balance. They will be sick for days while regaining equilibrium.</InterruptedDeathrest.description>
+  <InterruptedDeathrest.label>interrupted torpor</InterruptedDeathrest.label>
+  <PsychofluidRush.description>Psychic sensitivity is enhanced because this person used a psychofluid pump while in torpor. This effect lasts until the next torpor.</PsychofluidRush.description>
+  <VRE_ConsumedAnimalHemogen.description>Feeding on animal blood increases the regeneration and combat capabilities of the user, but greatly decreases the ability to communicate with others.</VRE_ConsumedAnimalHemogen.description>
+  <VRE_ConsumedAnimalHemogen.label>consumed animal blood</VRE_ConsumedAnimalHemogen.label>
+  <VRE_ConsumedCorpseHemogen.description>Corpse blood greatly weakens those who consume it, but increases consciousness and blood filtration significantly.</VRE_ConsumedCorpseHemogen.description>
+  <VRE_ConsumedCorpseHemogen.label>consumed corpse blood</VRE_ConsumedCorpseHemogen.label>
+  <VRE_ConsumedSanguophageHemogen.description>Consuming the power from the blood of other vampires gives one a powerful boost to all capacities.</VRE_ConsumedSanguophageHemogen.description>
+  <VRE_ConsumedSanguophageHemogen.label>consumed vampire blood</VRE_ConsumedSanguophageHemogen.label>
+  <VRE_HemogenAmplifiedWeak.description>All blood gains are multiplied up because this person used a small blood amplifier while deathresting. This effect lasts until the next torpor.</VRE_HemogenAmplifiedWeak.description>
+  <VRE_HemogenAmplifiedWeak.label>blood amplified, weak</VRE_HemogenAmplifiedWeak.label>
+  <VRE_SolidifiedHemogen.description>Armor is enhanced because this person used a blood solidifier while in torpor. This effect lasts until the next torpor.</VRE_SolidifiedHemogen.description>
+  <VRE_SolidifiedHemogen.label>solidified blood</VRE_SolidifiedHemogen.label>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HemogenGainFactor.description>A multiplier on the amount of blood gained when consuming blood from any source.</HemogenGainFactor.description>
+  <HemogenGainFactor.label>blood gain multiplier</HemogenGainFactor.label>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Deathrest.description>People with the torpor gene must torpor every few days or quadrums. To torpor means entering a regenerative coma for several days, during which the sleeper appears dead.\n\nA variety of special buildings can connect to a person in torpor and give them bonuses upon waking.\n\nGoing too long without torpor will cause torpor exhaustion, which massively degrades a person's physical capacities.</Deathrest.description>
+  <Deathrest.label>torpor</Deathrest.label>
+</LanguageData>

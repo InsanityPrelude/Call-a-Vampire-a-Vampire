@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM_RaidSpawner.label>vampire radio beacon</AM_RaidSpawner.label>
+  <DeathrestAccelerator.description>This device connects with a slumbering person and makes torpor complete quicker. It enhances the effect of the torpor casket using finer blood analysis and more powerful chemicals. It must be connected to a torpor casket to function.</DeathrestAccelerator.description>
+  <DeathrestAccelerator.label>torpor accelerator</DeathrestAccelerator.label>
+  <DeathrestBuildingHemogenFueled.comps.li.2.fuelLabel>Blood</DeathrestBuildingHemogenFueled.comps.li.2.fuelLabel>
+  <DeathrestCapacitySerum.description>A serum that permanently increases the number of torpor buildings a person can connect to during torpor.\n\nThe serum can only be ingested by individuals with the torpor gene.</DeathrestCapacitySerum.description>
+  <DeathrestCapacitySerum.label>torpor capacity serum</DeathrestCapacitySerum.label>
+  <DeathrestCasket.description>An enclosed med-casket that accelerates the process of torpor. It can connect to other devices which confer additional bonuses on the occupant. The number of devices that can connect depends on the person's torpor capacity, which can be seen by selecting them.\n\nOnly those with the torpor gene can use the torpor casket.</DeathrestCasket.description>
+  <DeathrestCasket.label>torpor casket</DeathrestCasket.label>
+  <GlucosoidPump.description>This device allows a sleeper to move faster after torpor is complete. It pumps the body with extra muscle-signaling factors while cleaning waste products from muscle tissue. The effect lasts until the individual torpors again. It must be connected to a torpor casket to function.\n\nThis building must consume blood to function.</GlucosoidPump.description>
+  <HemogenAmplifier.description>This device leaves a sleeper in a blood-amplified state so they gain more blood from any source. Using a gland probe and blood analyzer, it links with a person in torpor, stimulating their biology into a more active state. It must be connected to a torpor casket to function.\n\nThis building needs to consume blood to function.</HemogenAmplifier.description>
+  <HemogenAmplifier.label>blood amplifier</HemogenAmplifier.label>
+  <HemogenPack.description>A package of refined blood in a specialized container that prevents spoilage. Vampiric humans can consume it to restore their internal blood stores. It can be administered via an operation to reverse blood loss.</HemogenPack.description>
+  <HemogenPack.label>blood pack</HemogenPack.label>
+  <Hemopump.description>This blood-refining pump increases the amount of vampiric power a resting vampire can store in their body. It must be connected to a torpor casket to function.\n\nThis building needs to consume blood to function.</Hemopump.description>
+  <Hemopump.label>bloodpump</Hemopump.label>
+  <PsychofluidPump.description>This device enhances the psychic sensitivity of a person in torpor by rhythmically stimulating neural tissues. It must be connected to a torpor casket to function.\n\nThis building must consume blood to function.</PsychofluidPump.description>
+  <SanguphageMeetingTorch.description>A specially-treated wooden torch that produces a red light over a large area. Vampires gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat.</SanguphageMeetingTorch.description>
+  <VRE_Draincasket.description>A sinister contraption designed to extract blood from an individual while maintaining their life force at the barest minimum. This dark and foreboding casket houses its occupant in a twilight state of existence with their body slowly drained of precious blood. Bound to their Draincasket, the occupant's survival depends on being fed regularly, as they can still starve to death.\n\nProduces 2 blood packs a day as long as the occupant has food and the casket is connected to a blood network. If deprived of food, the casket will kill its occupant in around 2 days.\n\nIf you have Vanilla Nutrient Paste Expanded it will draw nutrients from that network, as long as there is more than 1 meal unit available.</VRE_Draincasket.description>
+  <VRE_HemodynamicAccelerator.description>An advanced device designed to expedite the torpor process at the cost of increased blood consumption. By connecting with one who is in torpor, this apparatus employs intricate blood analysis and potent sanguine stimulants to maximize the efficiency of the casket. As it hastens the character's recovery, the Hemodynamic Accelerator demands a continuous supply of blood to fuel its powerful operation. To function, it must be connected to a torpor casket, ensuring the swift rejuvenation of its occupant.</VRE_HemodynamicAccelerator.description>
+  <VRE_HemodynamicAccelerator.label>torpor casket</VRE_HemodynamicAccelerator.label>
+  <VRE_HemogenDrain.description>A hopper-like storage basin meant to input blood into the network, filling up connected vats.</VRE_HemogenDrain.description>
+  <VRE_HemogenDrain.label>blood drain</VRE_HemogenDrain.label>
+  <VRE_HemogenPack_Animal.description>Animal blood. Increases the regeneration and combat capabilities of the user, but greatly decreases the ability to communicate with others.</VRE_HemogenPack_Animal.description>
+  <VRE_HemogenPack_Animal.label>blood pack (animal)</VRE_HemogenPack_Animal.label>
+  <VRE_HemogenPack_Corpse.description>Tainted, rotting blood from a cadaver. Greatly weakens the consumer, but significantly increases blood filtration.</VRE_HemogenPack_Corpse.description>
+  <VRE_HemogenPack_Corpse.label>blood pack (corpse)</VRE_HemogenPack_Corpse.label>
+  <VRE_HemogenPack_Sanguophage.description>The pure, thick blood of another vampire. The rarest type of blood, it gives the carrier a powerful boost to all capacities.</VRE_HemogenPack_Sanguophage.description>
+  <VRE_HemogenPack_Sanguophage.label>blood pack (vampire)</VRE_HemogenPack_Sanguophage.label>
+  <VRE_HemogenPipe.description>A pipe that’s used to transport blood between taps, drains, vats and blood-fueled structures.</VRE_HemogenPipe.description>
+  <VRE_HemogenPipe.label>blood pipe</VRE_HemogenPipe.label>
+  <VRE_HemogenSolidifier.description>A device specifically engineered to enhance the durability of vampires in torpor by manipulating the molecular structure of their skin. Utilizing an array of bioresonant projectors and blood-based nano-agents, the solidifier targets the blood within the character's body, fortifying and thickening skin molecules. As the vampire slumbers, the Blood Solidifier weaves a dense, protective layer around them, rendering their skin more resilient and damage-resistant. The device must be connected to a torpor casket to operate, ensuring its occupant emerges from their rest with an augmented defensive capacity.</VRE_HemogenSolidifier.description>
+  <VRE_HemogenSolidifier.label>blood solidifier</VRE_HemogenSolidifier.label>
+  <VRE_HemogenTap.description>A hopper-like storage basin meant to dispense blood for later use.</VRE_HemogenTap.description>
+  <VRE_HemogenTap.label>blood tap</VRE_HemogenTap.label>
+  <VRE_HemogenValve.description>Switches blood flow on/off.</VRE_HemogenValve.description>
+  <VRE_HemogenValve.label>blood valve</VRE_HemogenValve.label>
+  <VRE_HemogenVat.description>An industrial liquid storage vat meant for storing blood delivered via blood pipe network. Vats can be designated to be siphoned for usable blood as needed.</VRE_HemogenVat.description>
+  <VRE_HemogenVat.label>blood vat</VRE_HemogenVat.label>
+  <VRE_InvocationMatrix.description>A sophisticated device that infuses those in torpor with rare and potent vampiric abilities. Employing a complex system of blood conduits and essence resonators, the matrix connects to a torpor casket and channels the life force of its occupant to unlock hidden potential within their bloodline. As the person slumbers in their deathrest state, the Invocation Matrix bestows upon them a selected, unique power. This building requires a constant supply of blood to operate.</VRE_InvocationMatrix.description>
+  <VRE_SmallHemogenAmplifier.description>This device leaves a deathrester in a blood-amplified state so they gain slightly more blood from any blood source. Using a gland probe and blood analyzer, it links with the user of the casket, stimulating certain vampiric glands into a more active state. It must be connected to a torpor casket to function. This building needs to consume blood to function.</VRE_SmallHemogenAmplifier.description>
+  <VRE_SmallHemogenAmplifier.label>small blood amplifier</VRE_SmallHemogenAmplifier.label>
+  <VRE_SmallHemopump.description>This small, blood-refining pump increases the amount of blood the user of the casket can store in their body. It must be connected to a torpor casket to function. This building needs to consume blood to function.</VRE_SmallHemopump.description>
+  <VRE_SmallHemopump.label>small bloodpump</VRE_SmallHemopump.label>
+  <VRE_UndergroundHemogenPipe.description>Hidden steel pipes designed to transport blood between taps, drains, vats and blood-fueled structures.</VRE_UndergroundHemogenPipe.description>
+  <VRE_UndergroundHemogenPipe.label>hidden blood pipe</VRE_UndergroundHemogenPipe.label>
+</LanguageData>

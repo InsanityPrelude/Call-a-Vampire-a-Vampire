@@ -1,0 +1,509 @@
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Races Expanded - Sanguophage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- RACE DEFS-->
+          <!-- Strigoi -->
+        <li Class="PatchOperationReplace"> 
+          <xpath>Defs/XenotypeDef[defName="VRE_Strigoi"]/descriptionShort</xpath>
+          <value>
+            <descriptionShort>Strigoi are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are viscous and resemble a half-human half-bat hybrid. They can heal any injury, and never suffer from disease or poison. In combat, they use their huge talons to rip their prey to pieces. The price is that strigoi vampires must consume blood harvested from humans or animals, and they must periodically enter torpor for long periods. They lose their blood supply quickly due to high entropy, and need to replenish it regularly to sustain themselves. They're easily destroyed by fire, and suffer extreme penalties in UV light.</descriptionShort>
+          </value>
+        </li>
+          <!-- Ekkimian -->
+        <li Class="PatchOperationReplace"> 
+          <xpath>Defs/XenotypeDef[defName="VRE_Ekkimian"]/description</xpath>
+          <value>
+            <description>In the darkest reaches of the universe, the Ekkimian vampires were birthed from the twisted ambitions of a rogue scientist named Dr. Mortis. Obsessed with the concept of death and resurrection, Dr. Mortis sought to create a new breed of immortals by fusing archites with the DNA of humans and a mysterious, long-extinct species that thrived on consuming the dead. The Ekkimian vampires, as they came to be known, are grotesque and horrifying in appearance. Resembling desiccated corpses more than living beings, their monstrous visages instill terror in all who lay eyes upon them. Despite their hideous appearance, the Ekkimian vampires possess incredible regenerative abilities, healing any injury and remaining immune to disease and poison.\n\nEkkimian vampires must consume blood exclusively from human corpses to survive. This morbid requirement has led them to lurk in the shadows, scavenging the remains of fallen warriors and feeding on the aftermath of battles. Like other vampires, they must periodically enter torpor to recover their strength and replenish their blood reserves.\n\nThere are whispered tales of entire planets falling under the sway of Ekkimian vampire lords, who feed on the corpses of their enemies and rule with an iron, undead fist. Fearful of the day when these monstrous beings might rise up and unleash their full power, the inhabitants of the colonized planets must remain ever vigilant, lest they become mere fodder for the insatiable hunger of the Ekkimians.</description>
+          </value>
+        </li>  
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/XenotypeDef[defName="VRE_Ekkimian"]/descriptionShort</xpath>
+          <value>
+            <descriptionShort>Ekkimian are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are extremely ugly and resemble dessicated corpses more than humans. They can heal any injury, and never suffer from disease or poison. In combat, they can excrete toxic clouds around themselves, and rapidly regenerate any wounds at the cost of blood. The price is that ekkimian vampires must consume blood from human corpses and only corpses, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.</descriptionShort>
+          </value>
+        </li>  
+          <!-- Bruxa -->
+        <li Class="PatchOperationReplace"> 
+          <xpath>Defs/XenotypeDef[defName="VRE_Bruxa"]/description</xpath>
+          <value>
+            <description>In the complex tapestry of the universe, the Bruxas emerged as a unique and alluring subxenotype of vampire. Created by an enigmatic archotech entity seeking to weave together beauty and power, the Bruxas were gifted with unparalleled grace and charm. Designed as the ultimate companions to other vampires, the Bruxas were engineered with the unique ability to bond with their brethren and feed on their blood, bestowing mutual benefits upon both parties.\n\nThe Bruxas are ageless and deathless, their bodies imbued with archotech-created archites that grant them extraordinary abilities. Possessing an ethereal beauty, they are irresistibly captivating to those who cross their paths. In addition to their regenerative powers, which allow them to heal any injury and remain immune to disease and poison, Bruxas have the remarkable ability to filter infections from the bloodstream of other humans, purifying their blood and filling them with an overwhelming sense of ecstasy in the process.\n\nThroughout the ages, the Bruxas have been both feared and revered for their beguiling beauty and potent abilities. Often serving as confidants and companions to powerful individuals, including vampire lords, they have been known to wield considerable influence in the shadow societies. Their unique ability to bond with other humans has led to the formation of secret alliances and networks, further solidifying their power and influence.\n\nIn the vast expanse of the universe, the Bruxas remain an enigma - seductive and mysterious, their true intentions hidden behind a veil of allure and grace. Those who encounter a Bruxa must tread carefully, for while their touch may bring unimaginable pleasure, it may also lead to a fate more treacherous than one could ever imagine.</description>
+          </value>
+        </li>  
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/XenotypeDef[defName="VRE_Bruxa"]/descriptionShort</xpath>
+          <value>
+            <descriptionShort>Bruxas are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are extremely beautiful, and almost always bond with other vampires. Unlike other subxenotypes of that species, bruxas are capable of feeding on blood from other vampires, providing them with great benefits. They can heal any injury, and never suffer from disease or poison. They can filter infection out of the bloodstream of other humans, as well as fill them with a sense of strong ecstasy. The price is that bruxa must sometimes consume blood - either human or vampire, and they must periodically enter torpor for long periods. They're easily destroyed by fire, and slowed down by UV light.</descriptionShort>
+          </value>
+        </li>  
+        
+        <!-- ABILITY DEFS--> 
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/AbilityDef[defName="VRE_AnimalFeed"]/description</xpath>
+          <value>
+            <description>Bite the target animal and extract their blood directly. The animal will lose blood and will be horrified by the interaction, which can result in it lashing out. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan only target animals.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/AbilityDef[defName="VRE_CorpseFeed"]/description</xpath>
+          <value>
+            <description>Bite the target corpse and drink whatever remains of their blood. The corpse will lose any remaining blood.\n\nCan only target human corpses.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/AbilityDef[defName="VRE_SanguoFeed"]/description</xpath>
+          <value>
+            <description>Bite the target vampire and drink blood from them directly. The target will lose blood and will be insulted by the interaction, but will be otherwise unharmed. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan only target vampiric humans.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/AbilityDef[defName="VRE_Hemosmosis"]/description</xpath>
+          <value>
+            <description>Absorb blood that has been spilled upon the ground.  Useful in the aftermath of gory battles.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/AbilityDef[defName="VRE_Hemosmosis_SingleUse"]/description</xpath>
+          <value>
+            <description>Absorb blood that has been spilled upon the ground.  Useful in the aftermath of gory battles.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/AbilityDef[defName="VRE_PiercingSpine_SingleUse"]/description</xpath>
+          <value>
+            <description>Use vampiric power to launch a bony spine at the target. The spine exits through the skin from an opening between the collarbones. Given the method of launch, it is surprisingly easy to aim.</description>
+          </value>
+        </li>
+        
+        <!-- STYLE ITEM CATEGORY DEFS -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/StyleItemCategoryDef[defName="VRE_Sanguophage"]/label</xpath>
+          <value>
+            <label>vampiric</label>
+          </value>
+        </li>
+
+        <!-- JOB DEFS -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/JobDef[defName="VRE_ExtractHemogenAnimal"]/reportString</xpath>
+          <value>
+            <reportString>extracting blood (animal) from TargetA.</reportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/JobDef[defName="VRE_ExtractHemogenCorpse"]/reportString</xpath>
+          <value>
+            <reportString>extracting blood (corpse) from TargetA.</reportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/JobDef[defName="VRE_DrinkHemogenCorpse"]/reportString</xpath>
+          <value>
+            <reportString>drinking blood (corpse) from TargetA.</reportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/JobDef[defName="VRE_ExtractHemogenSanguophage"]/reportString</xpath>
+          <value>
+            <reportString>extracting blood (vampire) from TargetA.</reportString>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/JobDef[defName="VRE_HemohunterJob"]/reportString</xpath>
+          <value>
+            <reportString>forcefully drinking blood from TargetA.</reportString>
+          </value>
+        </li>
+
+        <!-- MENTAL STATE DEFS -->
+            <!-- Bloodhunter State -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MentalStateDef[defName="VRE_Hemohunter"]/label</xpath>
+          <value>
+            <label>bloodhunter</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MentalStateDef[defName="VRE_Hemohunter"]/beginLetter</xpath>
+          <value>
+            <beginLetter>{0} has become a bloodhunter! \n\n[PAWN_pronoun] will drain blood off of anyone [PAWN_pronoun] sees, until their blood reserves rise to a safe level.</beginLetter>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MentalStateDef[defName="VRE_Hemohunter"]/recoveryMessage</xpath>
+          <value>
+            <recoveryMessage>{0}'s bloodhunter state has come to an end.</recoveryMessage>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MentalStateDef[defName="VRE_Hemohunter"]/baseInspectLine</xpath>
+          <value>
+            <baseInspectLine>Mental state: Bloodhunter</baseInspectLine>
+          </value>
+        </li>
+        
+        <!-- NET DEFS -->
+            <!-- Hemogen Network -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PipeSystem.PipeNetDef[defName="VRE_HemogenNet"]/resource/name</xpath>
+          <value>
+            <name>Blood</name>
+          </value>
+        </li>
+            <!-- Hemogen Pipe -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPipe"]/label</xpath>
+          <value>
+            <label>blood pipe</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPipe"]/description</xpath>
+          <value>
+            <description>A pipe that’s used to transport blood between taps, drains, vats and blood-fueled structures.</description>
+          </value>
+        </li>
+            <!-- Underground Hemogen Pipe -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_UndergroundHemogenPipe"]/label</xpath>
+          <value>
+            <label>hidden blood pipe</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_UndergroundHemogenPipe"]/description</xpath>
+          <value>
+            <description>Hidden steel pipes designed to transport blood between taps, drains, vats and blood-fueled structures.</description>
+          </value>
+        </li>
+            <!-- Hemogen Valve -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenValve"]/label</xpath>
+          <value>
+            <label>blood valve</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenValve"]/description</xpath>
+          <value>
+            <description>Switches blood flow on/off.</description>
+          </value>
+        </li>
+            <!-- Hemogen Vat -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenVat"]/label</xpath>
+          <value>
+            <label>blood vat</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenVat"]/description</xpath>
+          <value>
+            <description>An industrial liquid storage vat meant for storing blood delivered via blood pipe network. Vats can be designated to be siphoned for usable blood as needed.</description>
+          </value>
+        </li>
+            <!-- Hemogen Tap -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenTap"]/label</xpath>
+          <value>
+            <label>blood tap</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenTap"]/description</xpath>
+          <value>
+            <description>A hopper-like storage basin meant to dispense blood for later use.</description>
+          </value>
+        </li>
+            <!-- Hemogen Drain -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenDrain"]/label</xpath>
+          <value>
+            <label>blood drain</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenDrain"]/description</xpath>
+          <value>
+            <description>A hopper-like storage basin meant to input blood into the network, filling up connected vats.</description>
+          </value>
+        </li>
+            <!-- Draincasket -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_Draincasket"]/description</xpath>
+          <value>
+            <description>A sinister contraption designed to extract blood from an individual while maintaining their life force at the barest minimum. This dark and foreboding casket houses its occupant in a twilight state of existence with their body slowly drained of precious blood. Bound to their Draincasket, the occupant's survival depends on being fed regularly, as they can still starve to death.\n\nProduces 2 blood packs a day as long as the occupant has food and the casket is connected to a blood network. If deprived of food, the casket will kill its occupant in around 2 days.\n\nIf you have Vanilla Nutrient Paste Expanded it will draw nutrients from that network, as long as there is more than 1 meal unit available.</description>
+          </value>
+        </li>
+
+          <!-- GENE DEFS -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_LowHemogenDrain"]/label</xpath>
+          <value>
+            <label>low blood drain</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_LowHemogenDrain"]/description</xpath>
+          <value>
+            <description>Carriers lose an additional 4 blood units per day from biological entropy.</description>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_ExtremeHemogenDrain"]/label</xpath>
+          <value>
+            <label>extreme blood drain</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_ExtremeHemogenDrain"]/description</xpath>
+          <value>
+            <description>Carriers lose an additional 12 hemogen per day from biological entropy.</description>
+          </value>
+        </li>    
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_AnimalFeeder"]/label</xpath>
+          <value>
+            <label>vegetarian vampire</label>
+          </value>
+        </li>     
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_AnimalFeeder"]/description</xpath>
+          <value>
+            <description>Carriers of this gene have small retractable fangs and an organ on the roof of the mouth which can allow them to fill their blood reserves using fresh blood from an animal. They can bite any animal and suck their blood directly. This can sometimes make the animal attack the gene carrier.</description>
+          </value>
+        </li>    
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_CorpseFeeder"]/description</xpath>
+          <value>
+            <description>Carriers of this gene have small retractable fangs and an organ on the roof of the mouth which allows them to process cold, rotting blood. They can bite any human corpse and gain blood directly.</description>
+          </value>
+        </li>     
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_SanguoFeeder"]/label</xpath>
+          <value>
+            <label>vampire feeder</label>
+          </value>
+        </li>     
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GeneDef[defName="VRE_SanguoFeeder"]/description</xpath>
+          <value>
+            <description>Carriers of this gene have small retractable fangs and an organ on the roof of the mouth which can extract hemogen from fresh warm blood of other vampiric races. They can bite an unresisting vampire, suck the blood, and increase their reserves directly.</description>
+          </value>
+        </li>   
+
+
+        <!-- INCIDENT DEFS -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GameConditionDef[defName="VRE_BloodMoonCondition"]/description</xpath>
+          <value>
+            <description>One of the moons of this planet has orbited into the rimworld’s umbra, making vampires go mad with hunger.</description>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/GameConditionDef[defName="VRE_BloodMoonCondition"]/letterText</xpath>
+          <value>
+            <letterText>One of the moons of this planet has orbited into the rimworld’s umbra, blocking all direct sunlight from illuminating the moon’s surface. This resulted in the moon taking on a crimson color - a phenomena known as the blood moon.\n\nDuring this time, vampiric metabolisms will be driven into overdrive, driving blood-starved vampires out of their caves. Any vampire with less than half blood supply will enter the bloodhunter mental state. Blood will drain significantly quicker during blood moon.</letterText>
+          </value>
+        </li>   
+        
+        <!-- HEDIFFS DEFS --> 
+            <!-- Consumed Animal Hemogen -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_ConsumedAnimalHemogen"]/label</xpath>
+          <value>
+            <label>consumed animal blood</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_ConsumedAnimalHemogen"]/description</xpath>
+          <value>
+            <description>Feeding on animal blood increases the regeneration and combat capabilities of the user, but greatly decreases the ability to communicate with others.</description>
+          </value>
+        </li>   
+
+            <!-- Consumed Corpse Hemogen -->  
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_ConsumedCorpseHemogen"]/label</xpath>
+          <value>
+            <label>consumed corpse blood</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_ConsumedCorpseHemogen"]/description</xpath>
+          <value>
+            <description>Corpse blood greatly weakens those who consume it, but increases consciousness and blood filtration significantly.</description>
+          </value>
+        </li>   
+        
+            <!-- Consumed Sanguophage Hemogen -->  
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_ConsumedSanguophageHemogen"]/label</xpath>
+          <value>
+            <label>consumed vampire blood</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_ConsumedSanguophageHemogen"]/description</xpath>
+          <value>
+            <description>Consuming the power from the blood of other vampires gives one a powerful boost to all capacities.</description>
+          </value>
+        </li>   
+        
+            <!-- Solidified Hemogen -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_SolidifiedHemogen"]/label</xpath>
+          <value>
+            <label>solidified blood</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_SolidifiedHemogen"]/description</xpath>
+          <value>
+            <description>Armor is enhanced because this person used a blood solidifier while in torpor. This effect lasts until the next torpor.</description>
+          </value>
+        </li>   
+
+            <!-- Hemogen Amplified, Weak -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_HemogenAmplifiedWeak"]/label</xpath>
+          <value>
+            <label>blood amplified, weak</label>
+          </value>
+        </li>   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="VRE_HemogenAmplifiedWeak"]/description</xpath>
+          <value>
+            <description>All blood gains are multiplied up because this person used a small blood amplifier while deathresting. This effect lasts until the next torpor.</description>
+          </value>
+        </li>   
+                  
+        <!-- BUILDINGS --> 
+            <!-- Invocation Matrix -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_InvocationMatrix"]/description</xpath>
+          <value>
+            <description>A sophisticated device that infuses those in torpor with rare and potent vampiric abilities. Employing a complex system of blood conduits and essence resonators, the matrix connects to a torpor casket and channels the life force of its occupant to unlock hidden potential within their bloodline. As the person slumbers in their deathrest state, the Invocation Matrix bestows upon them a selected, unique power. This building requires a constant supply of blood to operate.</description>
+          </value>
+        </li>            
+
+            <!-- Hemodynamic Accelerator -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemodynamicAccelerator"]/label</xpath>
+          <value>
+            <label>torpor casket</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemodynamicAccelerator"]/description</xpath>
+          <value>
+            <description>An advanced device designed to expedite the torpor process at the cost of increased blood consumption. By connecting with one who is in torpor, this apparatus employs intricate blood analysis and potent sanguine stimulants to maximize the efficiency of the casket. As it hastens the character's recovery, the Hemodynamic Accelerator demands a continuous supply of blood to fuel its powerful operation. To function, it must be connected to a torpor casket, ensuring the swift rejuvenation of its occupant.</description>
+          </value>
+        </li>            
+
+            <!-- Hemogen Solidifier -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenSolidifier"]/label</xpath>
+          <value>
+            <label>blood solidifier</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenSolidifier"]/description</xpath>
+          <value>
+            <description>A device specifically engineered to enhance the durability of vampires in torpor by manipulating the molecular structure of their skin. Utilizing an array of bioresonant projectors and blood-based nano-agents, the solidifier targets the blood within the character's body, fortifying and thickening skin molecules. As the vampire slumbers, the Blood Solidifier weaves a dense, protective layer around them, rendering their skin more resilient and damage-resistant. The device must be connected to a torpor casket to operate, ensuring its occupant emerges from their rest with an augmented defensive capacity.</description>
+          </value>
+        </li>         
+        
+            <!-- Small Hemogen Amplifier -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_SmallHemogenAmplifier"]/label</xpath>
+          <value>
+            <label>small blood amplifier</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_SmallHemogenAmplifier"]/description</xpath>
+          <value>
+            <description>This device leaves a deathrester in a blood-amplified state so they gain slightly more blood from any blood source. Using a gland probe and blood analyzer, it links with the user of the casket, stimulating certain vampiric glands into a more active state. It must be connected to a torpor casket to function. This building needs to consume blood to function.</description>
+          </value>
+        </li>            
+
+            <!-- Small Hemo Pump -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_SmallHemopump"]/label</xpath>
+          <value>
+            <label>small bloodpump</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_SmallHemopump"]/description</xpath>
+          <value>
+            <description>This small, blood-refining pump increases the amount of blood the user of the casket can store in their body. It must be connected to a torpor casket to function. This building needs to consume blood to function.</description>
+          </value>
+        </li>            
+
+
+        <!-- FOOD ITEMS --> 
+            <!-- Blood Pack, Animal -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Animal"]/label</xpath>
+          <value>
+            <label>blood pack (animal)</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Animal"]/description</xpath>
+          <value>
+            <description>Animal blood. Increases the regeneration and combat capabilities of the user, but greatly decreases the ability to communicate with others.</description>
+          </value>     
+        </li>         
+            <!-- Blood Pack, Corpse -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Corpse"]/label</xpath>
+          <value>
+            <label>blood pack (corpse)</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Corpse"]/description</xpath>
+          <value>
+            <description>Tainted, rotting blood from a cadaver. Greatly weakens the consumer, but significantly increases blood filtration.</description>
+          </value>     
+        </li>
+            <!-- Blood Pack, Sanguophage -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Sanguophage"]/label</xpath>
+          <value>
+            <label>blood pack (vampire)</label>
+          </value>
+        </li>        
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Sanguophage"]/description</xpath>
+          <value>
+            <description>The pure, thick blood of another vampire. The rarest type of blood, it gives the carrier a powerful boost to all capacities.</description>
+          </value>     
+        </li>      
+
+        <!-- THOUGHTS AND MEMORIES --> 
+            <!-- Diablerie Social --> 
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="VRE_FedOnDiablerie_Social"]/stages/li/label</xpath>
+          <value>
+            <label>fed on by other vampire</label>
+          </value>
+        </li>         
+            <!-- Diablerie Thought -->   
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="VRE_FedOn"]/stages/li/description</xpath>
+          <value>
+            <description>The ultimate crime, I was fed on by another vampire!</description>
+          </value>     
+        </li>          
+      </operations>
+    </match>
+  </Operation>
+</Patch>

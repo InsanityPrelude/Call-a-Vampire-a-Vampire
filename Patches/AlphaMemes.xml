@@ -1,0 +1,331 @@
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HistoryEventDef[defName="AM_BuildingDeathrestCasket"]/label</xpath>
+          <value>
+            <label>building a torpor casket</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HistoryEventDef[defName="AM_SanguophageCampRaided"]/label</xpath>
+          <value>
+            <label>raiding a vampire camp together</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HistoryEventDef[defName="AM_SanguophageCampRaided_DevPoints"]/label</xpath>
+          <value>
+            <label>raiding a vampire camp</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/IssueDef[defName="AM_DeathrestCaskets"]/label</xpath>
+          <value>
+            <label>torpor caskets</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/IssueDef[defName="AM_SanguophageCamps"]/label</xpath>
+          <value>
+            <label>vampire camps</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/description</xpath>
+          <value>
+            <description>We refuse to tolerate the predations of the vampires. These parasitic creatures thrive on the suffering of others, spreading their cursed condition like a plague. Our mission is clear: track them, eliminate them, and ensure their kind finds no safe haven under the stars.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[11]</xpath>
+          <value>
+            <li>lessonReinforcement(tag=meme_SanguophageHunting) -&gt;Only by standing together and taking action can we protect ourselves from the vampire threat.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[12]</xpath>
+          <value>
+            <li>archistBasis(tag=meme_SanguophageHunting)    -&gt;The archotechs have no tolerance for vampires. Their parasitic nature is an antithesis to perfection.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[13]</xpath>
+          <value>
+            <li>archistFact(tag=meme_SanguophageHunting)     -&gt;When the archotechs reveal their grand design, those who stood against vampires will be rewarded for their vigilance.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[14]</xpath>
+          <value>
+            <li>archistProphecy(tag=meme_SanguophageHunting) -&gt;[inTheEnd], the archotechs will eliminate all vampires and elevate the hunters who aided in their extermination.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[15]</xpath>
+          <value>
+            <li>animistFact(tag=meme_SanguophageHunting)     -&gt;The spirits abhor vampires, for their thirst for blood disrupts the natural order of life and death.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[16]</xpath>
+          <value>
+            <li>serketistProphecy(tag=meme_SanguophageHunting)-&gt;As predators prey upon the weak, so must we hunt the vampires to maintain the balance of the ecosystem.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[17]</xpath>
+          <value>
+            <li>chthonianProphecy(tag=meme_SanguophageHunting)-&gt;The vampires are a whisper of the cosmic madness that threatens to consume us all. By hunting them, we deny the abyss its agents.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[18]</xpath>
+          <value>
+            <li>esotericismProphecy(tag=meme_SanguophageHunting)-&gt;The vampires covet secrets that were never meant to be theirs. By ending their existence, we preserve the sacred knowledge of the unseen.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[19]</xpath>
+          <value>
+            <li>eschatologismFact(tag=meme_SanguophageHunting)-&gt;The vampires herald the end. To delay the apocalypse, we must extinguish their cursed bloodlines.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[1]</xpath>
+          <value>
+            <li>creation(tag=meme_SanguophageHunting)        -&gt;[deity0_name] gazed upon the cursed vampires and proclaimed: "These creatures are an affront to life itself. They must be purged to restore balance."</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[20]</xpath>
+          <value>
+            <li>introMemo(tag=meme_SanguophageHunting)-&gt;It has come to my attention that some of you have been avoiding assignments to hunt vampires. Let me remind you: no one is exempt from safeguarding our colony. Remember: teamwork keeps the parasites at bay!</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[21]</xpath>
+          <value>
+            <li>alienistProphecy(tag=meme_SanguophageHunting)-&gt;We will capture and study these creatures, learning from them and perhaps discover a way to better end the threat of vampires.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>episode(uses=1,tag=meme_SanguophageHunting)  -&gt;[deity0_name] said to the [memberNamePlural]: "Hunt the vampires wherever they hide. Their bloodlust defiles the sanctity of creation."</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[3]</xpath>
+          <value>
+            <li>intro(tag=meme_SanguophageHunting)           -&gt;[memberNamePlural] constructed a solemn [altarName] on the [place_summary] [place_name], where they swore an oath to cleanse the land of vampires.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>conflict(tag=meme_SanguophageHunting)        -&gt;The vampires retaliated against [deity0_name]'s followers, but the [memberNamePlural] stood firm, vowing to end their reign of terror.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[5]</xpath>
+          <value>
+            <li>founderJoin(tag=meme_SanguophageHunting)     -&gt;[deity0_name] commanded [founderName] to rise against the vampires, calling them the bane of mortal existence.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[6]</xpath>
+          <value>
+            <li>victory(tag=meme_SanguophageHunting)         -&gt;[founderName] led a crusade against the vampires, vanquishing them and securing a lasting peace for the faithful.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[7]</xpath>
+          <value>
+            <li>setup(tag=meme_SanguophageHunting)           -&gt;Our founder [founderName] was a visionary who saw the danger of vampires in [founder_possessive] world. [founder_pronoun] gathered [founder_possessive] followers and set out to eradicate this parasitic menace.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[8]</xpath>
+          <value>
+            <li>story(uses=1,tag=meme_SanguophageHunting)    -&gt;[founderName]'s followers documented [founder_possessive] tactics and strategies, passing down the art of vampire hunting through the generations.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/MemeDef[defName="AM_VampireHunting"]/descriptionMaker/rules/rulesStrings/li[9]</xpath>
+          <value>
+            <li>lessonIntro(tag=meme_SanguophageHunting)         -&gt;In all my years tracking vampires, one truth has become clear:</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PreceptDef[defName="AM_HuntFocus_Sanguophage"]/description</xpath>
+          <value>
+            <description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nNormal Vampires will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Vampire will cause extra 10 burn damage.\n - You'll get extra hunt focus precepts with VE Races - Vampire and Alpha Genes.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PreceptDef[defName="AM_HuntFocus_Sanguophage"]/label</xpath>
+          <value>
+            <label>vampire</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PreceptDef[defName="AM_SanguophageCamps_RaidingDesired"]/description</xpath>
+          <value>
+            <description>The lurking dens of vampires are a blight upon the world, festering with unnatural corruption. We take pride in raiding these camps, striking at their cursed kind.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - If this precept is active in your colony, you will get Vampire camp quests once per quadrum. These are storyteller-independent, they don't take the "slot" of a base game quest.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PreceptDef[defName="AM_SanguophageCamps_RaidingDesired"]/comps/li[4]/thoughtStageDescriptions/li</xpath>
+          <value>
+            <li>More than 3 quadrums without killing a vampire</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/PreceptDef[defName="AM_SanguophageCamps_RaidingDesired"]/comps/li[5]/eventLabel</xpath>
+          <value>
+            <eventLabel>vampire camp raided</eventLabel>
+          </value>
+        </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/PreceptDef[defName="AM_HuntFocus_Strigoi"]/description</xpath>
+                <value>
+                  <description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nStrigoi will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Strigoi will cause extra 10 burn damage.</description>
+                </value>
+              </li>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/PreceptDef[defName="AM_HuntFocus_Ekkimian"]/description</xpath>
+                <value>
+                  <description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nEkkimian will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against an Ekkimian will cause extra 10 burn damage.</description>
+                </value>
+              </li>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/PreceptDef[defName="AM_HuntFocus_Bruxa"]/description</xpath>
+                <value>
+                  <description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nBruxa will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Bruxa will cause extra 10 burn damage.</description>
+                </value>
+              </li>
+              <li Class="PatchOperationFindMod">
+                <mods>
+                  <li>Alpha Genes</li>
+                </mods>
+                <match Class="PatchOperationReplace">
+                  <xpath>Defs/PreceptDef[defName="AM_HuntFocus_Malachai"]/description</xpath>
+                  <value>
+                    <description>Our purpose is clear: to seek out the cursed vampires wherever they may hide.\n\nMalachai will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Malachai will cause extra 10 burn damage.</description>
+                  </value>
+                </match>
+              </li>
+            </operations>
+          </match>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/QuestScriptDef[defName="AM_OpportunitySite_SanguophageCamp"]/questDescriptionRules/rulesStrings/li</xpath>
+          <value>
+            <li>questDescription(askerIsNull==true)-&gt;Our trackers have discovered footprints that seem to lead to a Vampire camp nestled near [map_definite]. The area shows signs of recent activity, and it seems the camp may be built around an old crypt. These creatures are a danger to all, and their lair might hold valuable relics or technology worth recovering. Be prepared for resistance, as the Vampires will not give up their stronghold without a fight.</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/QuestScriptDef[defName="AM_OpportunitySite_SanguophageCamp"]/questNameRules/rulesStrings/li[2]</xpath>
+          <value>
+            <li>camp-&gt;Vampire camp</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/QuestScriptDef[defName="AM_OpportunitySite_SanguophageCamp"]/questNameRules/rulesStrings/li[3]</xpath>
+          <value>
+            <li>camp-&gt;Vampire den</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/QuestScriptDef[defName="AM_OpportunitySite_SanguophageCamp"]/questNameRules/rulesStrings/li[4]</xpath>
+          <value>
+            <li>camp-&gt;Vampire lair</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/QuestScriptDef[defName="AM_OpportunitySite_SanguophageCamp"]/questNameRules/rulesStrings/li[5]</xpath>
+          <value>
+            <li>camp-&gt;Vampire mausoleum</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/QuestScriptDef[defName="AM_OpportunitySite_SanguophageCamp"]/root/nodes/li[10]/node/nodes/li[1]/text</xpath>
+          <value>
+            <text>Intercepted communications indicate the vampire camp has seemingly vanished without a trace. The quest [resolvedQuestName] has expired.</text>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/SitePartDef[defName="AG_SanguophageCamp"]/description</xpath>
+          <value>
+            <description>A recently-discovered vampire camp.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/SitePartDef[defName="AG_SanguophageCamp"]/label</xpath>
+          <value>
+            <label>vampire camp</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="AM_RaidSpawner"]/label</xpath>
+          <value>
+            <label>vampire radio beacon</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_DeathrestCaskets_Abhorrent"]/stages/li/description</xpath>
+          <value>
+            <description>We have a torpor casket in the colony. This is blasphemy, it should be dismantled as soon as possible.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_DeathrestCaskets_Abhorrent"]/stages/li/label</xpath>
+          <value>
+            <label>torpor casket nearby</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_SanguophageCamps_BloodfeederDied_Desire"]/stages/li/description</xpath>
+          <value>
+            <description>It's been more than three quadrums since our colony has killed a Vampire... What kind of hunters are we?</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_SanguophageCamps_BloodfeederDied_Desire"]/stages/li/label</xpath>
+          <value>
+            <label>too long without killing a vampire</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_SanguophageCamps_RaidingDesired"]/stages/li/description</xpath>
+          <value>
+            <description>I raided a camp full of disgusting Vampires!</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_SanguophageCamps_RaidingDesired"]/stages/li/label</xpath>
+          <value>
+            <label>raided a vampire camp</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="AM_SanguophageCamps_RaidingDesired_Know"]/stages/li/label</xpath>
+          <value>
+            <label>raided a vampire camp together</label>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

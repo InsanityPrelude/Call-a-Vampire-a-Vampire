@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Bloodfeed.description>Wardens will ignore this prisoner. When a vampire's blood levels are low, they may feed on this prisoner. Other prisoners who are vampires can also feed on this prisoner, if they are in the same cell.</Bloodfeed.description>
+  <HemogenFarm.description>An operation to extract blood packs will be automatically queued on this prisoner whenever it can be done without killing them. The operation will be carried out by a doctor.</HemogenFarm.description>
+  <HemogenFarm.label>blood farm</HemogenFarm.label>
+</LanguageData>
